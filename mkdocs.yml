@@ -1,0 +1,43 @@
+site_name: eDNA FAIR
+nav:
+  - Home: index.md
+  - Guidelines: guidelines.md
+  - What's next: next.md
+  - Working group: workinggroup.md
+  - Contact: contact.md
+theme:
+  name: material
+  logo: assets/images/ednafair_icon.svg
+  favicon: assets/images/ednafair_icon.svg
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: green
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+    - navigation.top
+plugins:
+  - offline
+  - search
