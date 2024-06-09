@@ -1,4 +1,5 @@
 site_name: eDNA FAIR
+site_url: https://fair-edna.github.io/
 nav:
   - Home: index.md
   - Guidelines: guidelines.md
