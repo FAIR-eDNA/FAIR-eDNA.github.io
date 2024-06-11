@@ -1,6 +1,5 @@
 # eDNA FAIR guidelines
 
-TEST TEST MIWA
 ## Data types and formats
 Each eDNA study generates multiple types of data, including metadata, DNA sequences, and raw (non-curated) and curated OTU/ASV tables. 
 
