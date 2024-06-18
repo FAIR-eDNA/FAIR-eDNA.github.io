@@ -44,8 +44,9 @@
 - Katy Klymus
     - U.S. Geological Survey, Columbia Environmental Research Center, Columbia, MO, USA
     - 0000-0002-8843-6241
-- Peggy Newman
 - Suk Yee Yong
+    - Commonwealth Scientific and Industrial Research Organisation Information Management & Technology Scientific Computing, Eveleigh, NSW, Australia
+    - 0000-0002-5204-2902
 - Cecillia Villacorta Rath
 - Lynn Schriml
 - Katherine Silliman

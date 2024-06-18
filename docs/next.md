@@ -17,7 +17,7 @@ Carney et al. (2023) established a roadmap for the lifecycle of eukaryotic biodi
 
 <div align="center">
 <figure>
-    <img src="/assets/images/be+fair+care.png" alt="Be FAIR and CARE" width="80%">
+    <img src="/assets/images/be+fair+care.png" alt="Be FAIR and CARE" width="70%">
     <figcaption style="margin-top: 0em">Image credit: <a href="https://www.gida-global.org/care">https://www.gida-global.org/care</a></figcaption>
 </figure>
 </div>
