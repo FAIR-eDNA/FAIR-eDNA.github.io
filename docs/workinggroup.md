@@ -54,6 +54,6 @@
 - Luke Thompson
 
 <div align="center">
-    <img src="/assets/images/collaborators2.png" alt="List of collaborators" width="95%">
+    <img src="/assets/images/collaborators2.PNG" alt="List of collaborators" width="95%">
 </div>
 
