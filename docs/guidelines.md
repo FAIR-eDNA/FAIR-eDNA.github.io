@@ -1,5 +1,6 @@
 # eDNA FAIR guidelines
 In this section, we outline the various data components and formats, present a comprehensive FAIR eDNA (FAIRe) Metadata Checklist, and provide example datasets, along with scripts and tools to guide users through the data formatting process. We also introduce existing databases where eDNA data can be shared and made publicly accessible. Figure 2 outlines the overall FAIRe practice steps while the below sections contain the details of each step. The current FAIRe frameworks were developed using the following resources as foundational starting points. 
+
 -	Darwin Core Quick Reference Guide. https://dwc.tdwg.org/terms/
 -	Minimum Information about any (x) Sequence (MIxS) standard. https://genomicsstandardsconsortium.github.io/mixs/
 -	Darwin Core extension of DNA derived data. https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml 
@@ -8,7 +9,7 @@ In this section, we outline the various data components and formats, present a c
 -	GBIF Metabarcoding Data Toolkit. https://mdt.gbif.org/
 
 <div align="center">
-    <img src="/assets/images/FAIRe_practice_flowchart.png" alt="Figure 2. FAIRe practice flowchart" width="95%">
+    <img src="/assets/images/FAIRe_practice_flowchart.jpg" alt="Figure 2. FAIRe practice flowchart" width="95%">
 </div>
 
 ## Data formats and components
