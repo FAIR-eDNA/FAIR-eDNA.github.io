@@ -1,6 +1,17 @@
 # eDNA FAIR guidelines
+In this section, we outline the various data components and formats, present a comprehensive FAIR eDNA (FAIRe) Metadata Checklist, and provide example datasets, along with scripts and tools to guide users through the data formatting process. We also introduce existing databases where eDNA data can be shared and made publicly accessible. Figure 2 outlines the overall FAIRe practice steps while the below sections contain the details of each step. The current FAIRe frameworks were developed using the following resources as foundational starting points. 
+-	Darwin Core Quick Reference Guide. https://dwc.tdwg.org/terms/
+-	Minimum Information about any (x) Sequence (MIxS) standard. https://genomicsstandardsconsortium.github.io/mixs/
+-	Darwin Core extension of DNA derived data. https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml 
+-	Abarenkov et al., (2023) Publishing DNA-derived data through biodiversity data platforms, v1.3. Copenhagen: GBIF Secretariat. https://doi.org/10.35035/doc-vf1a-nr22
+-	The OBIS manual. https://manual.obis.org/
+-	GBIF Metabarcoding Data Toolkit. https://mdt.gbif.org/
 
-## Data types and formats
+<div align="center">
+    <img src="/assets/images/FAIRe_practice_flowchart.png" alt="Figure 2. FAIRe practice flowchart" width="95%">
+</div>
+
+## Data formats and components
 Each eDNA study generates multiple types of data, including metadata, DNA sequences, and raw (non-curated) and curated OTU/ASV tables. 
 
 The list below and Figure 2 outline the structure and contents of each datatype that are required to be submitted for FAIR eDNA data.
