@@ -112,6 +112,31 @@ Table 1. Standardised names for each data type. In the examples, `project_id` = 
 | Curated Sequence/Taxa table | taxaFinal\_`project_id`\_`assay_name`\_`seq_run_id` | taxaFinal_gbr2022_MiFish_run20230922.csv |
 
 
+<table>
+  <thead style="background-color: grey;">
+    <tr>
+      <th>Data type</th>
+      <th>Name format</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Project metadata</td>
+      <td>projectMetadata_`project_id`</td>
+      <td>projectMetadata_gbr2022.csv</td>
+    </tr>
+    <tr>
+      <td>Sample metadata</td>
+      <td>sampleMetadata_`project_id`</td>
+      <td>sampleMetadata_gbr2022.csv</td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
 ## FAIRe metadata checklist
 We developed a FAIR eDNA (FAIRe) metadata checklist, providing a comprehensive vocabulary for describing different data components and methodologies (Table S1). Thorough documentation is crucial for improving the transparency and reproducibility of studies, as well as for enabling the evaluation of data suitability for specific reuse cases. The FAIRe checklist consists of 337 data terms (38 mandatory, 51 highly recommended, 128 recommended and 120 optional terms), organised into workflow sections (e.g., sample collection, PCR, bioinformatics). Most of the mandatory, highly recommended and recommended information is generated naturally during the course of any project. As a result, data meeting the minimum reporting requirements can be readily made available and submitted to public repositories. 
 
