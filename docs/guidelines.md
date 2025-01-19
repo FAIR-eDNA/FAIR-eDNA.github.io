@@ -94,6 +94,7 @@ The figure and list below outline the associated eDNA data components as well as
 To ensure machine readability and long-lasting reference to a digital resource, it is crucial to apply consistent, persistent sample and sequence identifiers (`samp_name`, `lib_id` and `seq_run_id`) across datasets (Damerow et al., 2021; McMurry et al., 2017). Similarly, each file must have a clear, unambiguous name, consisting of `project_id`, `assay_name` and `seq_run_id` (see Table 2 and example datasets) to maintain clear links between files. For example, a curated ASV/OTU table should be named as otuFinal_`project_id`_`assay_name`_`seq_run_id` (e.g., otuFinal_gbr2022_MiFish_lib20230922.csv). If multiple data components are stored within a single spreadsheet workbook, the file name should be the `project_id` (e.g., gbr2022.xlsx). In this case, each worksheet name should follow the format in Table 2 without the `project_id` as it already appears in the main file name (e.g., otuFinal_MiFish_lib20230922). 
 
 Table 1. Standardised names for each data type. In the examples, `project_id` = gbr2022, `samp_name` = S1, `assay_name` = eSERUS and MiFish for targeted and metabarcoding assay approaches respectively, `seq_run_id` = run20230922
+
 | Data type | Name format | Example |
 |-----------------|----------------|----------------|
 | Project metadata	| projectMetadata_`project_id`	| projectMetadata_gbr2022.csv |
