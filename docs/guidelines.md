@@ -123,13 +123,23 @@ Table 1. Standardised names for each data type. In the examples, `project_id` = 
   <tbody>
     <tr>
       <td>Project metadata</td>
-      <td>projectMetadata_<code>project_id</code>code></td>
+      <td>projectMetadata_<code>project_id</code></td>
       <td>projectMetadata_gbr2022.csv</td>
     </tr>
     <tr>
       <td>Sample metadata</td>
       <td>sampleMetadata_<code>project_id</code></td>
       <td>sampleMetadata_gbr2022.csv</td>
+    </tr>
+    <tr>
+      <td>PCR standard data</td>
+      <td>stdData_<code>project_id</code></td>
+      <td>stdData_gbr2022.csv</td>
+    </tr>
+    <tr>
+      <td>eLow Quant data</td>
+      <td>eLowQuantData_<code>project_id</code></td>
+      <td>eLowQuantData_gbr2022.csv</td>
     </tr>
   </tbody>
 </table>
