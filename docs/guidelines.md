@@ -103,7 +103,7 @@ Table 1. Standardised names for each data type. In the examples, `project_id` = 
 | eLow Quant data |	eLowQuantData_`project_id` | eLowQuantData_gbr2022.csv |
 | Amplification data | ampData_`project_id`_`assay_name` | ampData_gbr2022_eSERUS.csv |
 | Experiment/run metadata |	experimentRunMetadata_`project_id` | experimentRunMetadata_gbr2022.csv |
-| Non-curated ASV/OTU table | otuRaw_`project_id`_`assay_name`_`seq_run_id` | otuRaw_gbr2022_MiFish_run20230922.csv |
+| Non-curated ASV/OTU table | otuRaw\_`project_id`\_`assay_name`\_`seq_run_id` | otuRaw_gbr2022_MiFish_run20230922.csv |
 | Curated ASV/OTU table | otuFinal_`project_id`_`assay_name`_`seq_run_id` | otuFinal_gbr2022_MiFish_run20230922.csv |
 | Non-curated Sequence/Taxa table | taxaRaw_`project_id`_`assay_name`_`seq_run_id` | taxaRaw_gbr2022_MiFish_run20230922.csv |
 | Curated Sequence/Taxa table | taxaFinal_`project_id`_`assay_name`_`seq_run_id` | taxaFinal_gbr2022_MiFish_run20230922.csv |
