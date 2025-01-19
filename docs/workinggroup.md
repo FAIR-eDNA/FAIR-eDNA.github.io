@@ -1,14 +1,8 @@
 # Working group
 
-- Miwa Takahashi (Corresponding author: <a href="mailto:miwa.takahashi@csiro.au">miwa.takahashi@csiro.au</a>)
-    - Environomics Future Science Platform, Commonwealth Scientific and Industrial Research Organisation, Indian Oceans Marine Research Centre, Crawley, Australia
-    - 0000-0001-8952-051X
-- Oliver Berry
-    - Environomics Future Science Platform, Commonwealth Scientific and Industrial Research Organisation, Indian Oceans Marine Research Centre, Crawley, Australia
-    - 0000-0001-7545-5083
-- Tobias Guldberg Frøslev
-    - Global Biodiversity Information Facility, Copenhagen, Denmark
-    - 0000-0002-3530-013X
+- Miwa Takahashi (0000-0001-8952-051X. Corresponding author: <a href="mailto:miwa.takahashi@csiro.au">miwa.takahashi@csiro.au</a>)
+- Oliver Berry (0000-0001-7545-5083)
+- Tobias Guldberg Frøslev (0000-0002-3530-013X)
 - Gareth Jenkins
     - John Wiley & Sons Ltd, Oxford, UK
     - 0009-0000-2919-0723
