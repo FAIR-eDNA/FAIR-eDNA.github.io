@@ -123,12 +123,12 @@ Table 1. Standardised names for each data type. In the examples, `project_id` = 
   <tbody>
     <tr>
       <td>Project metadata</td>
-      <td>projectMetadata_`project_id`</td>
+      <td>projectMetadata_<code>project_id</code>code></td>
       <td>projectMetadata_gbr2022.csv</td>
     </tr>
     <tr>
       <td>Sample metadata</td>
-      <td>sampleMetadata_`project_id`</td>
+      <td>sampleMetadata_<code>project_id</code></td>
       <td>sampleMetadata_gbr2022.csv</td>
     </tr>
   </tbody>
