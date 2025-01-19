@@ -1,5 +1,5 @@
 # FAIR eDNA (FAIRe) guidelines
-In this section, we outline the various data components and formats, present a comprehensive FAIR eDNA (FAIRe) Metadata Checklist along with scripts and tools to guide users through the data formatting process. 
+In this section, we outline the various data components and formats, present a comprehensive FAIR eDNA (FAIRe) metadata checklist along with scripts and tools to guide users through the data formatting process. 
 
 
 <div align="center">
