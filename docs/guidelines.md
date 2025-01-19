@@ -4,6 +4,7 @@ In this section, we outline the various data components and formats, present a c
 
 <div align="center">
     <img src="/assets/images/FAIRe_practice_flowchart.jpg" alt="Figure 2. FAIRe practice flowchart" width="95%">
+     <figcaption style="margin-top: 0em">Figure 2. FAIRe practice flowchart</a></figcaption>
 </div>
 
 
@@ -11,7 +12,8 @@ In this section, we outline the various data components and formats, present a c
 The figure and list below outline the associated eDNA data components as well as their contents and purposes. In our proposed data structure, all data components, except DNA sequence data (i.e., raw data in e.g., FASTQ and, optionally, representative sequences in FASTA), are organised in a tabular format. They can be saved as individual worksheets in spreadsheet workbooks, as character-separated values text files (tab or comma), or as a combination of these (see various example datasets provided). This allows data to be conceptually divided into separate modules that can be linked using unique identifiers, such as `project_id`, `sample_name`, and `assay_name`, as well as to accommodate users’ needs and data wrangling preferences. 
 
 <div align="center">
-    <img src="/assets/images/data_types.png" alt="Data types" width="95%">
+    <img src="/assets/images/datatypes_main.jpg" alt="Data types" width="95%">
+    <figcaption style="margin-top: 0em">Figure 3. Data components and their recommended structures that promote FAIR eDNA</a></figcaption>
 </div>
 
 1. **Project metadata** (projectMetadata)
@@ -79,6 +81,16 @@ The figure and list below outline the associated eDNA data components as well as
 -	**Contents**: DNA sequence of each `seq_id` listed in the curated ASV/OTU table. If a taxon was assigned, also include assigned taxonomy and assignment quality assurance parameters (e.g., % identity, % query coverage). If multiple taxa are assigned to a single ASV/OTU, the LCA should be used as the assigned taxon. 
 -	**Purpose**: To allow data reusers to assess the specificity and accuracy of the inferred taxonomy, and to perform taxonomic re-annotation using different or updated sequence reference databases.
 
+
+<div align="center">
+    <img src="/assets/images/datatypes_noncurated files.jpg" alt="Optional intermediate files" width="95%">
+    <figcaption style="margin-top: 0em">Figure 4. Optional intermediate file formats for metabarcoding outputs</a></figcaption>
+</div>
+
+<div align="center">
+    <img src="/assets/images/datatypes_multiassay.jpg" alt="Multiple assay" width="95%">
+    <figcaption style="margin-top: 0em">Figure 5. Metadata formats for a project applying multiple assays</a></figcaption>
+</div>
 
 ## Consistent identifiers and file naming 
 To ensure machine readability and long-lasting reference to a digital resource, it is crucial to apply consistent, persistent sample and sequence identifiers (`samp_name`, `lib_id` and `seq_run_id`) across datasets (Damerow et al., 2021; McMurry et al., 2017). Similarly, each file must have a clear, unambiguous name, consisting of `project_id`, `assay_name` and `seq_run_id` (see Table 2 and example datasets) to maintain clear links between files. For example, a curated ASV/OTU table should be named as otuFinal_<`project_id`>_<`assay_name`>_<`seq_run_id`> (e.g., otuFinal_gbr2022_MiFish_lib20230922.csv). If multiple data components are stored within a single spreadsheet workbook, the file name should be the `project_id` (e.g., gbr2022.xlsx). In this case, each worksheet name should follow the format in Table 2 without the `project_id` as it already appears in the main file name (e.g., otuFinal_MiFish_lib20230922). 
