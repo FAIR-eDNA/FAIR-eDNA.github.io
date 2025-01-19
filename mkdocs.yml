@@ -1,4 +1,4 @@
-site_name: eDNA FAIR
+site_name: FAIR eDNA
 site_url: https://fair-edna.github.io/
 nav:
   - Home: index.md
