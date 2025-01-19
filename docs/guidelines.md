@@ -16,22 +16,20 @@ The figure and list below outline the associated eDNA data components as well as
     <figcaption style="margin-top: 0em">Figure 3. Data components and their recommended structures that promote FAIR eDNA</a></figcaption>
 </div>
 
+
 1. **Project metadata** (projectMetadata)
-
--	**Contents**: Information that applies to an entire project and dataset. This includes a project name, reference associated to the datasets from which the datasets were derived (e.g., bibliographic references to studies, DOI of published, associated data), and metadata describing workflows including PCR, sequencing, and bioinformatic steps.
--	**Purpose**: To describe project information and methodologies that apply to all samples, thereby avoiding the need to propagate identical entries to all samples in sample metadata. Information, such as bioinformatic quality filtering parameters and thresholds, enable data reusers to assess whether the data quality meets the specific requirements for certain types of reuse. Standardisation of such information is particularly important as minimum requirements for amplification analysis, bioinformatic workflows and quality assurance levels vary between studies and applications, including those reusing shared data. 
--	**Note**: Multiple primer sets are often applied within one project to target more than one taxon. In this case, practitioners would follow the format in Figure 5 to record assay-specific workflows and outputs.
-
+   -	**Contents**: Information that applies to an entire project and dataset. This includes a project name, reference associated to the datasets from which the datasets were derived (e.g., bibliographic references to studies, DOI of published, associated data), and metadata describing workflows including PCR, sequencing, and bioinformatic steps.
+   -	**Purpose**: To describe project information and methodologies that apply to all samples, thereby avoiding the need to propagate identical entries to all samples in sample metadata. Information, such as bioinformatic quality filtering parameters and thresholds, enable data reusers to assess whether the data quality meets the specific requirements for certain types of reuse. Standardisation of such information is particularly important as minimum requirements for amplification analysis, bioinformatic workflows and quality assurance levels vary between studies and applications, including those reusing shared data. 
+   -	**Note**: Multiple primer sets are often applied within one project to target more than one taxon. In this case, practitioners would follow the format in Figure 5 to record assay-specific workflows and outputs.
 2. **Sample metadata** (sampleMetadata)
-
--	**Contents**: Information for each sample (where this cannot be stated at the project level in project metadata), including sampling date, location, methodologies, and environmental variables (i.e., temperature, water depth).
--	**Purpose**: To record sample-specific information through the workflows from sampling to bioinformatics. 
+   -	**Contents**: Information for each sample (where this cannot be stated at the project level in project metadata), including sampling date, location, methodologies, and environmental variables (i.e., temperature, water depth).
+   -	**Purpose**: To record sample-specific information through the workflows from sampling to bioinformatics. 
 
 3. **Experiment/run metadata** (experimentRunMetadata)
 
--	**Contents**: Sample-specific information for PCR, library preparation and sequencing workflows.
--	**Purpose**: To record workflows, from PCR onward, that are specific to each sample and assay.
--	**Note**: Each entry (row) has a unique library ID (`lib_id`) and multiplexing identifiers (MIDs) (`mid_forward`, `mid_reverse`).
+   -	**Contents**: Sample-specific information for PCR, library preparation and sequencing workflows.
+   -	**Purpose**: To record workflows, from PCR onward, that are specific to each sample and assay.
+   -	**Note**: Each entry (row) has a unique library ID (`lib_id`) and multiplexing identifiers (MIDs) (`mid_forward`, `mid_reverse`).
 
 4. **PCR standard data** (stdData)
 
