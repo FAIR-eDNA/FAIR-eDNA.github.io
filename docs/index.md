@@ -1,7 +1,7 @@
 # Making eDNA FAIR
 
 <div align="center">
-    <img src="/assets/images/projectlogo_darkBG.jpg" alt="logo" width="70%">
+    <img src="/assets/images/projectlogo_whiteBG.jpg" alt="logo" width="70%">
 </div>
 
 
