@@ -1,12 +1,12 @@
 # Making eDNA FAIR
 
 <div align="center">
-    <img src="/assets/images/ednafair_logo.png" alt="logo" width="70%">
+    <img src="/assets/images/projectlogo_darkBG.jpg" alt="logo" width="70%">
 </div>
 
 
 ## Why do we need FAIR eDNA?
-The success of environmental DNA (eDNA) approaches for species detection has revolutionised biodiversity monitoring and distribution mapping. Targeted eDNA amplification approaches, such as quantitative PCR, have improved our understanding of species distribution, while metabarcoding-based approaches enable biodiversity assessment at unprecedented scales and taxonomic resolution. eDNA datasets, however, are often scattered across repositories with inconsistent formats, varying access restrictions, and inadequate metadata; this limits their interoperation, reuse, and overall impact. Adopting FAIR (Findable, Accessible, Interoperable, Reusable) data practices with eDNA data can transform monitoring of biodiversity and individual species, and support data-driven biodiversity management across broad scales. FAIR practices remain underdeveloped in the eDNA community, partly due to gaps in adapting existing vocabularies, such as Darwin Core (DwC) and Minimum Information about any (x) Sequence (MIxS), to eDNA-specific needs and workflows. 
+The success of environmental DNA (eDNA) approaches for species detection has revolutionised biodiversity monitoring and distribution mapping. Targeted eDNA amplification approaches, such as quantitative PCR, have improved our understanding of species distribution, while metabarcoding-based approaches enable biodiversity assessment at unprecedented scales and taxonomic resolution. eDNA datasets, however, are often scattered across repositories with inconsistent formats, varying access restrictions, and inadequate metadata; this limits their interoperation, reuse, and overall impact. Adopting FAIR (Findable, Accessible, Interoperable, Reusable) data practices with eDNA data can transform monitoring of biodiversity and individual species, and support data-driven biodiversity management across broad scales. FAIR practices remain underdeveloped in the eDNA community, partly due to gaps in adapting existing vocabularies, such as [Darwin Core (DwC)](https://dwc.tdwg.org/) and [Minimum Information about any (x) Sequence (MIxS)](https://genomicsstandardsconsortium.github.io/mixs/), to eDNA-specific needs and workflows. 
 
 ## Project scope
 Fine-tuning, optimizing and extending existing data and metadata standards specifically for eDNA-based studies is a crucial first step towards achieving FAIR eDNA. To this end, we propose a comprehensive FAIR eDNA (FAIRe) metadata checklist, which integrates existing data standards and introduces new terms tailored to eDNA workflows. 
@@ -20,7 +20,7 @@ Together, these effors aim to guide data providers and facilitate the unambiguou
 </div>
  -->
 <div align="center">
-    <img src="/assets/images/fairedna_infographic.jpg" alt="FAIR eDNA infographic" width="90%">
+    <img src="/assets/images/infographic.jpg" alt="FAIR eDNA infographic" width="90%">
     <figcaption style="margin-top: 0em">Designed by: <a href="https://ooidscientific.com">OOID Scientific</a></figcaption>
 </div>
 
