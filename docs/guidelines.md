@@ -141,6 +141,36 @@ Table 1. Standardised names for each data type. In the examples, `project_id` = 
       <td>eLowQuantData_<code>project_id</code></td>
       <td>eLowQuantData_gbr2022.csv</td>
     </tr>
+    <tr>
+      <td>Amplification data</td>
+      <td>ampData_<code>project_id</code>_<code>assay_name</code></td>
+      <td>ampData_gbr2022_eSERUS.csv</td>
+    </tr>
+    <tr>
+      <td>Experiment/run metadata</td>
+      <td>experimentRunMetadata_<code>project_id</code></td>
+      <td>experimentRunMetadata_gbr2022.csv</td>
+    </tr>
+    <tr>
+      <td>Non-curated ASV/OTU table</td>
+      <td>otuRaw_<code>project_id</code>_<code>assay_name</code>_<code>seq_run_id</code></td>
+      <td>otuRaw_gbr2022_MiFish_run20230922.csv</td>
+    </tr>
+    <tr>
+      <td>Curated ASV/OTU table</td>
+      <td>otuFinal_<code>project_id</code>_<code>assay_name</code>_<code>seq_run_id</code></td>
+      <td>otuFinal_gbr2022_MiFish_run20230922.csv</td>
+    </tr>
+    <tr>
+      <td>Non-curated Sequence/Taxa table</td>
+      <td>taxaRaw_<code>project_id</code>_<code>assay_name</code>_<code>seq_run_id</code></td>
+      <td>taxaRaw_gbr2022_MiFish_run20230922.csv</td>
+    </tr>
+    <tr>
+      <td>Curated Sequence/Taxa table</td>
+      <td>taxaFinal_<code>project_id</code>_<code>assay_name</code>_<code>seq_run_id</code></td>
+      <td>taxaFinal_gbr2022_MiFish_run20230922.csv</td>
+    </tr>
   </tbody>
 </table>
 
