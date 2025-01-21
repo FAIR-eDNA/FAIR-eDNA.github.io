@@ -10,6 +10,8 @@ mkdocs.yml: Configuration file
 |- docs
 |- |- CONTENT.md: Website content in Markdown
 |- assets/images/: Images folder
+|- checklist/: Checklist and template
+|- examples/: Example datasets
 ```
 
 ## Setup Commands
