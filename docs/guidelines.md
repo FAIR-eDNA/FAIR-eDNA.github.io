@@ -4,7 +4,7 @@ In this section, we outline the various data components and formats, present a c
 
 <div align="center">
     <img src="/assets/images/FAIRe_practice_flowchart2.jpg" alt="Figure 2. FAIRe practice flowchart" width="95%">
-     <figcaption style="margin-top: 0em">Figure 2. FAIRe practice flowchart</a></figcaption>
+     <figcaption style="margin-top: 0em; text-align: left; width: 95%;">Figure 2. FAIRe practice flowchart</a></figcaption>
 </div>
 
 
