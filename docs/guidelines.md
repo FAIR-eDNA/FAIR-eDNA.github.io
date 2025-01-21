@@ -13,7 +13,7 @@ The figure and list below outline the associated eDNA data components as well as
 
 <div align="center">
     <img src="/assets/images/datatypes_main.jpg" alt="Data types" width="95%">
-    <figcaption style="margin-top: 0em">Figure 3. Data components and their recommended structures that promote FAIR eDNA</a></figcaption>
+    <figcaption style="margin-top: 0em; text-align: left; width: 95%;">Figure 3. Data components and their recommended structures that promote FAIR eDNA</a></figcaption>
 </div>
 
 
@@ -85,12 +85,12 @@ The figure and list below outline the associated eDNA data components as well as
 
 <div align="center">
     <img src="/assets/images/datatypes_noncurated files.jpg" alt="Optional intermediate files" width="95%">
-    <figcaption style="margin-top: 0em">Figure 4. Optional intermediate file formats for metabarcoding outputs</a></figcaption>
+    <figcaption style="margin-top: 0em; text-align: left; width: 95%;">Figure 4. Optional intermediate file formats for metabarcoding outputs</a></figcaption>
 </div>
 
 <div align="center">
     <img src="/assets/images/datatypes_multiassay.jpg" alt="Multiple assay" width="95%">
-    <figcaption style="margin-top: 0em">Figure 5. Metadata formats for a project applying multiple assays</a></figcaption>
+    <figcaption style="margin-top: 0em; text-align: left; width: 95%;">Figure 5. Metadata formats for a project applying multiple assays</a></figcaption>
 </div>
 
 ## Consistent identifiers and file naming 
