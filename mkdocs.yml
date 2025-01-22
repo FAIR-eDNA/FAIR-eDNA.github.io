@@ -3,9 +3,9 @@ site_url: https://fair-edna.github.io/
 nav:
   - Home: index.md
   - Guidelines: guidelines.md
-  - Download: download.md
   - Our next steps: next.md
   - Working group: workinggroup.md
+  - Download: download.md
   - Contact: contact.md
 theme:
   name: material
