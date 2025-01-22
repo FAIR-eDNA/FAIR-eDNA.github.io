@@ -8,6 +8,10 @@ Click [here](/checklist/FAIRe_checklist_v1.0_FULLtemplate.xlsx) to download the 
 
 ## Codes and tools
 
+- **FAIRe-ator** (FAIR eDNA template generator): Download the R code here.
+- **FAIRe2MDT**: Download the R code here.
+- **FAIRe-fier** (FAIR eDNA metadata verifier): Coming soon!
+
 ## Example datasets
 A variety of example datasets from published studies is provided [here](docs/examples).
 
