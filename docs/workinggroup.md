@@ -1,4 +1,4 @@
-## FAIRe Working group members
+## FAIRe Working Group members
 
 - Miwa Takahashi (0000-0001-8952-051X) (Corresponding author: <a href="mailto:miwa.takahashi@csiro.au">miwa.takahashi@csiro.au</a>)
 - Oliver Berry (0000-0001-7545-5083)
