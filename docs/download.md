@@ -13,5 +13,5 @@ Click [here](/checklist/FAIRe_checklist_v1.0_FULLtemplate.xlsx) to download the 
 - **FAIRe-fier** (FAIR eDNA metadata verifier): Coming soon!
 
 ## Example datasets
-A variety of example datasets from published metabarcoding and targeted assay studies is available [here](/docs/examples).
+A variety of example datasets from published metabarcoding and targeted assay studies is available [here](https://github.com/FAIR-eDNA/FAIR-eDNA.github.io/tree/main/docs/examples).
 
