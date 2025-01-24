@@ -18,7 +18,7 @@ In the scope of existing agreements between TDWG and GSC to collaborate on devel
 We have developed the current guidelines with great interest to integrate them into journal publication requirements. We have collaborated with Wiley and Environmental DNA to develop a roadmap for integrating FAIR data principles into their publication procedures. This roadmap involves three key steps; 1) strongly recommending adherence to the FAIRe guidelines upon journal article publication, 2) making compliance mandatory in due course, and 3) extending these requirements to additional journals including Molecular Ecology and Ecology and Evolution. While most journals mandate data sharing, submitting data in a FAIR manner is not yet a widespread practice (Roche et al., 2015). Implementation of the FAIR data guidelines is a crucial and effective strategy given the large number of eDNA studies published each year with the tremendous volume of genetic and species occurrence data they generate (Takahashi et al., 2023). 
 
 <div align="center">
-    <img src="/assets/images/FAIReRoadmap_FAIReRoadmap.jpg" alt="Figure 6. FAIRe roadmap" width="95%">
+    <img src="/assets/images/Figure6_FAIReRaodmap_FAIReRoadmap.jpg" alt="Figure 6. FAIRe roadmap" width="95%">
      <figcaption style="margin-top: 0em">Figure 6. Roadmap for continued development of the FAIRe checklist and guidelines, with time represented from left to right and the star representing the current point in time</a></figcaption>
 </div>
 
