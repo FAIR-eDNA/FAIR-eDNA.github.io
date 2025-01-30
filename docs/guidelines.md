@@ -9,7 +9,7 @@ In this section, we outline the various data components and formats, present a c
 
 
 ## Data formats and components
-The figure and list below outline the associated eDNA data components as well as their contents and purposes. In our proposed data structure, all data components, except DNA sequence data (i.e., raw data in e.g., FASTQ and, optionally, representative sequences in FASTA), are organised in a tabular format. They can be saved as individual worksheets in spreadsheet workbooks, as character-separated values text files (tab or comma), or as a combination of these (see various example datasets provided). This allows data to be conceptually divided into separate modules that can be linked using unique identifiers, such as `project_id`, `sample_name`, and `assay_name`, as well as to accommodate users’ needs and data wrangling preferences. 
+The figure and list below outline the associated eDNA data components as well as their contents and purposes. In our proposed data structure, all data components, except DNA sequence data (i.e., raw data in FASTQ and, optionally, representative sequences in FASTA), are organised in a tabular format. They can be saved as individual worksheets in spreadsheet workbooks, as character-separated values text files (tab or comma), or as a combination of these (see various example datasets provided). This allows data to be conceptually divided into separate modules that can be linked using unique identifiers, such as `project_id`, `sample_name`, and `assay_name`, as well as to accommodate users’ needs and data wrangling preferences. 
 
 <div align="center">
     <img src="/assets/images/datatypes_main.jpg" alt="Data types" width="95%">
@@ -84,7 +84,7 @@ The figure and list below outline the associated eDNA data components as well as
 
 
 <div align="center">
-    <img src="/assets/images/datatypes_noncurated files.jpg" alt="Optional intermediate files" width="95%">
+    <img src="/assets/images/Figure4_datatypes_noncurated_files.jpg" alt="Optional intermediate files" width="95%">
     <figcaption style="margin-top: 0em; text-align: left; width: 95%;">Figure 4. Optional intermediate file formats for metabarcoding outputs</a></figcaption>
 </div>
 
