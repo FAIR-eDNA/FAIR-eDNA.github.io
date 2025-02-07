@@ -175,12 +175,23 @@ Several approaches were implemented to increase standardisation of terms. Firstl
 which utilises the [ISO 8601 format](https://www.iso.org/iso-8601-date-and-time-format.html), followed by the difference from UTC time (e.g., "2008-01-23T19:23-06:00" in the time zone six hours earlier than UTC). Original records of date and time before conversion into the ISO 8601 format should be stored under the terms `verbatimDate` and `verbatimTime`. 
 
 ### Missing values
-Information may be missing for various reasons, and historically, science has used a variety of conventions to denote missing data. Furthermore, geographical coordinates can be generalised or withheld to protect endangered species or culturally important sites for Indigenous People and Local Communities (Chapman, 2020; Chapman and Wieczorek, 2020; Frank et al., 2015, https://fnigc.ca/). The reasons for withholding or generalising data should be described under the terms `informationWithheld` and `dataGeneralization` respectively in project metadata. When a value is missing from a mandatory term, it is required to provide the reason using the [INSDC missing value controlled vocabulary](https://www.insdc.org/submitting-standards/missing-value-reporting/). It is also recommended to apply this approach for non-mandatory terms. 
-Some examples include;
+Information may be missing for various reasons, and historically, science has used a variety of conventions to denote missing data. Furthermore, geographical coordinates can be generalised or withheld to protect endangered species or culturally important sites for Indigenous People and Local Communities (Chapman, 2020; Chapman and Wieczorek, 2020; Frank et al., 2015, https://fnigc.ca/). The reasons for withholding or generalising data should be described under the terms `informationWithheld` and `dataGeneralization` respectively in project metadata. When a value is missing from a mandatory term, it is required to provide the reason following the format of the [INSDC missing value controlled vocabulary](https://www.insdc.org/submitting-standards/missing-value-reporting/). It is also recommended to apply this approach for non-mandatory terms. 
+Below, we provide the complete list of missing value terms, including their full hierarchical structure for clarity;
 
--	**not applicable: control sample** - Information is not applicable as the sample represents a control sample collected in a lab.
--	**missing: endangered species** - Information cannot be reported as the target organism is endangered e.g., on the IUCN red-list
--	**missing: not collected** - Information of an expected format was not given because it has not been collected. 
+
+-	**not applicable**: control sample
+-	**not applicable**: sample group
+-	**not applicable**: (other reasons not applicable)
+-	**missing**: not collected: synthetic construct
+-	**missing**: not collected: lab stock
+-	**missing**: not collected: third party data
+-	**missing**: not collected: (other reasons not collected)
+-	**missing**: not provided: [data agreement established pre-2023](https://www.insdc.org/news/insdc-spatiotemporal-metadata-minimum-standards-update-03-03-2023/)
+-	**missing**: not provided: (other reasons not provided)
+-	**missing**: restricted access: endangered species
+-	**missing**: restricted access: human-identifiable
+-	**missing**: restricted access: (other reasons restricted access)
+
 
 ## Data submission/publication
 Publishing eDNA datasets to databases such as [GBIF](https://www.gbif.org/), [OBIS](https://obis.org/) and [INSDC](https://www.insdc.org/), is an essential step in ensuring FAIR data practices. These platforms ensure data findability and accessibility for scientific research and decision-making that rely on open data, either through application programming interfaces (APIs) or sophisticated web-browser interfaces. They offer data validation procedures during submission, and provide additional standardisation to ensure interoperability. Persistent sample and sequence identifiers are provided upon the submission of data to these databases, which are essential for machine-readability and long-lasting reference to the data. For example, in GBIF, dataset authors and publishers receive credit through unique dataset Digital Object Identifiers (DOIs) that enable citation tracking and automatic usage reporting. 
