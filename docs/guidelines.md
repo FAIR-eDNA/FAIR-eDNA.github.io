@@ -176,21 +176,20 @@ which utilises the [ISO 8601 format](https://www.iso.org/iso-8601-date-and-time-
 
 ### Missing values
 Information may be missing for various reasons, and historically, science has used a variety of conventions to denote missing data. Furthermore, geographical coordinates can be generalised or withheld to protect endangered species or culturally important sites for Indigenous People and Local Communities (Chapman, 2020; Chapman and Wieczorek, 2020; Frank et al., 2015, https://fnigc.ca/). The reasons for withholding or generalising data should be described under the terms `informationWithheld` and `dataGeneralization` respectively in project metadata. When a value is missing from a mandatory term, it is required to provide the reason following the format of the [INSDC missing value controlled vocabulary](https://www.insdc.org/submitting-standards/missing-value-reporting/). It is also recommended to apply this approach for non-mandatory terms. 
-Below, we provide the complete list of missing value terms, including their full hierarchical structure for clarity;
+Below, we provide the complete list of missing value terms, including their full hierarchical structure for clarity. Only the bold texts should be used to describe the missing values (i.e., do not indlude the parehtnetical explanations or add your own reasons). 
 
-
--	**not applicable**: control sample
--	**not applicable**: sample group
--	**not applicable**: (other reasons not applicable)
--	**missing**: not collected: synthetic construct
--	**missing**: not collected: lab stock
--	**missing**: not collected: third party data
--	**missing**: not collected: (other reasons not collected)
--	**missing**: not provided: [data agreement established pre-2023](https://www.insdc.org/news/insdc-spatiotemporal-metadata-minimum-standards-update-03-03-2023/)
--	**missing**: not provided: (other reasons not provided)
--	**missing**: restricted access: endangered species
--	**missing**: restricted access: human-identifiable
--	**missing**: restricted access: (other reasons restricted access)
+-	**not applicable: control sample**
+-	**not applicable: sample group**
+-	**not applicable** (other reasons not applicable)
+-	**missing: not collected: synthetic construct**
+-	**missing: not collected: lab stock**
+-	**missing: not collected: third party data**
+-	**missing: not collected** (other reasons not collected)
+-	**missing: not provided: [data agreement established pre-2023](https://www.insdc.org/news/insdc-spatiotemporal-metadata-minimum-standards-update-03-03-2023/)**
+-	**missing: not provided** (other reasons not provided)
+-	**missing: restricted access: endangered species**
+-	**missing: restricted access: human-identifiable**
+-	**missing: restricted access** (other reasons restricted access)
 
 
 ## Data submission/publication
