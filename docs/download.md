@@ -9,6 +9,7 @@ Click [here](/checklist/FAIRe_checklist_v1.0_FULLtemplate.xlsx) to download the 
 ## Codes and tools
 
 - **FAIRe-ator** (FAIR eDNA template generator): Download the README and R code [here](https://github.com/FAIR-eDNA/FAIRe-ator/blob/main).
+- **FAIReSheets** (FAIR eDNA template generator for Google Sheets): Download the README and Python code [here](https://github.com/aomlomics/fairesheets).
 - **FAIRe2MDT**: Download the R code [here](https://github.com/FAIR-eDNA/FAIRe2MDT/blob/main/FAIRe2MDT.R).
 - **FAIRe-fier** (FAIR eDNA metadata verifier): Coming soon!
 
