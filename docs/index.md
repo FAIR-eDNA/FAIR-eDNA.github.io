@@ -4,6 +4,9 @@
     <img src="/assets/images/projectlogo_whiteBG.jpg" alt="logo" width="70%">
 </div>
 
+<div style="border: 2px solid #ccc; padding: 15px; border-radius: 10px; background-color: #f9f9f9;">
+    <p>This is an ongoing, community-led initiative, and we continue to refine and improve the [products](https://fair-edna.github.io/download.html) on this site based on feedback and collaboration. Check out the [What's next?](https://fair-edna.github.io/next.html) page to learn more about how we are working with GSC and TDWG.</p>
+</div>
 
 ## Why do we need FAIR eDNA?
 The success of environmental DNA (eDNA) approaches for species detection has revolutionised biodiversity monitoring and distribution mapping. Targeted eDNA amplification approaches, such as quantitative PCR, have improved our understanding of species distribution, while metabarcoding-based approaches enable biodiversity assessment at unprecedented scales and taxonomic resolution. eDNA datasets, however, are often scattered across repositories with inconsistent formats, varying access restrictions, and inadequate metadata; this limits their interoperation, reuse, and overall impact. Adopting FAIR (Findable, Accessible, Interoperable, Reusable) data practices with eDNA data can transform monitoring of biodiversity and individual species, and support data-driven biodiversity management across broad scales. FAIR practices remain underdeveloped in the eDNA community, partly due to gaps in adapting existing vocabularies, such as [Darwin Core (DwC)](https://dwc.tdwg.org/) and [Minimum Information about any (x) Sequence (MIxS)](https://genomicsstandardsconsortium.github.io/mixs/), to eDNA-specific needs and workflows. 
