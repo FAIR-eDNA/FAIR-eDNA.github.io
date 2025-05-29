@@ -3,9 +3,8 @@
 
 <div style="border: 1px solid black; padding: 10px;">
     <ul>
-        <li>While we believe the current guidelines will significantly empower users to enhance the FAIRness of eDNA data, other contributions will also make a difference. </li>
         <li>This is an ongoing, community-led initiative, and we continue to refine and improve the outputs based on feedback and collaboration. </li>
-        <li>Our next goal is to align and formally integrate the checklist within the [MIxS](https://genomicsstandardsconsortium.github.io/mixs/) and [DwC](https://dwc.tdwg.org/) standards through collaboration with the Genomic Standards Consortium (GSC) and Biodiversity Information Standards (TDWG). </li>
+        <li>Our next goal is to align and formally integrate the checklist within the <a href="https://genomicsstandardsconsortium.github.io/mixs/">MIxS</a> and <a href="https://dwc.tdwg.org/">DwC</a> standards through collaboration with the Genomic Standards Consortium (GSC) and Biodiversity Information Standards (TDWG). </li>
         </ul>
 </div>
 
