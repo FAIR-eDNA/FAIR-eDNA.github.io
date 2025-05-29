@@ -1,8 +1,16 @@
 # What's next
-While we believe the current guidelines will significantly empower users to enhance the FAIRness of eDNA data, other contributions will also make a difference.  
+
+
+<div style="border: 1px solid black; padding: 10px;">
+    <ul>
+        <li>While we believe the current guidelines will significantly empower users to enhance the FAIRness of eDNA data, other contributions will also make a difference. </li>
+        <li>This is an ongoing, community-led initiative, and we continue to refine and improve the outputs based on feedback and collaboration. </li>
+        <li>Our next goal is to align and formally integrate the checklist within the [MIxS](https://genomicsstandardsconsortium.github.io/mixs/) and [DwC](https://dwc.tdwg.org/) standards through collaboration with the Genomic Standards Consortium (GSC) and Biodiversity Information Standards (TDWG). </li>
+        </ul>
+</div>
 
 ## Raising awareness
-Our next step focuses on raising awareness of FAIR principles, existing guidelines, and available tools to promote their adoption with the eDNA communities. To achieve this, the lead author will host workshops with eDNA practitioners over the coming year, offering hands-on opportunities to introduce FAIR data principles and provide practical guidance on implementing standardised formatting protocols. The first workshop is scheduled to take place at [the eDNA conference in Wellington, New Zealand, in February 2025](https://ednaconference.com.au/5614). More than a training exercise, these workshops are crucial for establishing direct communications, identifying communities’ needs, and addressing challenges to adopting FAIR data practices within their workflows. This step is particularly important as open and FAIR data can only be achieved through eDNA practitioners’ collaborative efforts, and rely on their commitment to making data accessible for broader use. 
+Our next step focuses on raising awareness of FAIR principles, existing guidelines, and available tools to promote their adoption with the eDNA communities. To achieve this, the lead author will host workshops with eDNA practitioners over the coming year, offering hands-on opportunities to introduce FAIR data principles and provide practical guidance on implementing standardised formatting protocols. The first workshop took place at [the eDNA conference in Wellington, New Zealand, in February 2025](https://ednaconference.com.au/5614). More than a training exercise, these workshops are crucial for establishing direct communications, identifying communities’ needs, and addressing challenges to adopting FAIR data practices within their workflows. This step is particularly important as open and FAIR data can only be achieved through eDNA practitioners’ collaborative efforts, and rely on their commitment to making data accessible for broader use. 
 
 Several studies have explored Open Science behaviours and identified the barriers among scientists (e.g., Norris and O’Connor, 2019; Tenopir et al., 2015). These barriers include technical and resource limitations, such as lack of standards, tools, time and skills to navigate required data management systems (Tedersoo et al., 2021; Tenopir et al., 2015). Additionally, multiple perceived barriers exist, including unawareness of the value of data for others, fear of scrutiny due to potential mistakes, resistance to openly sharing data given large efforts invested to secure funding in the face of limited resource for scientific research and resistance to changing existing practices (Norris and O’Connor, 2019; Tenopir et al., 2015). 
 
