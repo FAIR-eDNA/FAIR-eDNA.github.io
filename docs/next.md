@@ -1,12 +1,6 @@
 # What's next
 
-
-<div style="border: 1px solid black; padding: 10px;">
-    <ul>
-        <li>This is an ongoing, community-led initiative, and we continue to refine and improve the outputs based on feedback and collaboration. </li>
-        <li>Our next goal is to align and formally integrate the checklist within the <a href="https://genomicsstandardsconsortium.github.io/mixs/">MIxS</a> and <a href="https://dwc.tdwg.org/">DwC</a> standards through collaboration with the Genomic Standards Consortium (GSC) and Biodiversity Information Standards (TDWG). </li>
-        </ul>
-</div>
+While we believe the current guidelines will significantly empower users to enhance the FAIRness of eDNA data, other contributions will also make a difference. 
 
 ## Raising awareness
 Our next step focuses on raising awareness of FAIR principles, existing guidelines, and available tools to promote their adoption with the eDNA communities. To achieve this, the lead author will host workshops with eDNA practitioners over the coming year, offering hands-on opportunities to introduce FAIR data principles and provide practical guidance on implementing standardised formatting protocols. The first workshop took place at [the eDNA conference in Wellington, New Zealand, in February 2025](https://ednaconference.com.au/5614). More than a training exercise, these workshops are crucial for establishing direct communications, identifying communities’ needs, and addressing challenges to adopting FAIR data practices within their workflows. This step is particularly important as open and FAIR data can only be achieved through eDNA practitioners’ collaborative efforts, and rely on their commitment to making data accessible for broader use. 
