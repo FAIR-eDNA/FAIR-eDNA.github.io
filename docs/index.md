@@ -4,8 +4,8 @@
     <img src="/assets/images/projectlogo_whiteBG.jpg" alt="logo" width="70%">
 </div>
 
-<div style="border: 1px solid black; padding: 10px; font-size: 18px; font-weight: bold;">
-    This is an ongoing, community-led initiative, and we continue to refine and improve the <a href="https://fair-edna.github.io/download.html">products</a> on this site based on feedback and collaboration. Check out the <a href="https://fair-edna.github.io/next.html">Our next steps</a> page to learn more about how we are working with <a href="https://www.gensc.org/">GSC</a> and <a href="https://www.tdwg.org/">TDWG</a>.
+<div style="border: 1px solid black; padding: 10px; font-size: 18px;">
+    This is an ongoing, community-led initiative, and we continue to refine and improve the <a href="https://fair-edna.github.io/download.html">products</a> on this site based on feedback and collaboration. Check out the <a href="https://fair-edna.github.io/next.html">Our next steps</a> page to learn more about how we are working with <a href="https://www.gensc.org/">Genomic Standards Consortium (GSC)</a> and <a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>.
 </div>
 
 ## Why do we need FAIR eDNA?
