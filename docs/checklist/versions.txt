@@ -1,5 +1,5 @@
 Latest version
-- FAIRe metadata checklist v1.0 : Released on 2025-01-21
+- FAIRe metadata checklist v1.0 : Released on 2025-01-21. Typos corrected on 2025-06-13.
 
 Previous versions:
 - None
