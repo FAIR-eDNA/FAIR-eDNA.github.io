@@ -11,7 +11,7 @@ Click [here](/checklist/FAIRe_checklist_v1.0_FULLtemplate.xlsx) to download the 
 - **FAIRe-ator** (FAIR eDNA template generator): Download the README and R code [here](https://github.com/FAIR-eDNA/FAIRe-ator/blob/main).
 - **FAIReSheets** (FAIR eDNA template generator for Google Sheets): Download the README and Python code [here](https://github.com/aomlomics/fairesheets).
 - **FAIRe2MDT**: Download the R code [here](https://github.com/FAIR-eDNA/FAIRe2MDT/blob/main/FAIRe2MDT.R).
-- **FAIRe-fier** (FAIR eDNA metadata verifier): Coming soon!
+- **FAIRe-fier** (FAIR eDNA metadata verifier): This tool is accessible via [web interface](https://shiny.csiro.au/FAIRe-fier/), with additional metadata and citation details available at [http://hdl.handle.net/102.100.100/706519?index=1](http://hdl.handle.net/102.100.100/706519?index=1).
 
 ## Example datasets
 A variety of example datasets from published metabarcoding and targeted assay studies is available [here](https://github.com/FAIR-eDNA/FAIR-eDNA.github.io/tree/main/docs/examples).
