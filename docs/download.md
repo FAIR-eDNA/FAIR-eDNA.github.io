@@ -1,8 +1,9 @@
 ## FAIRe metadata checklist
-Click [here](/checklist/FAIRe_checklist_v1.0.xlsx) to download the FAIRe metadata checklist V1.0
+The latest version of the FAIRe metadata checklist (v1.0.2 released on 2025-07-02) is available in Excel format [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2.xlsx)  
+You can access previous versions and change logs [here](https://github.com/FAIR-eDNA/FAIRe_checklist/tree/main).
 
 ## FAIRe template
-Click [here](/checklist/FAIRe_checklist_v1.0_FULLtemplate.xlsx) to download the FAIRe FULL template. 
+Click [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_FULLtemplate.xlsx) to download the FAIRe FULL template (v1.0.2). 
 
 **Note**: This template includes all terms from the FAIRe checklist, including those specifically tailored for certain assay types (i.e., targeted and metabarcoding) and sample types (e.g., water, sediment). Costumised template based on your assay type and sample type can be produced using the R code, FAIR eDNA template generator (FAIRe-ator). 
 
