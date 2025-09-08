@@ -6,8 +6,9 @@ nav:
   - Our next steps: next.md
   - Working group: workinggroup.md
   - Download: download.md
+  - How to contribute: contact.md  
   - How to cite: citation.md
-  - Contact: contact.md
+
 theme:
   name: material
   logo: assets/images/ednafair_icon.svg
