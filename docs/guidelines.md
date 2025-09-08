@@ -57,14 +57,14 @@ The figure and list below outline the associated eDNA data components as well as
 
 1. **Non-curated ASV/OTU table** (otuRaw) (Optional)
 
-    -	**Contents**: The initial ASV/OTU table produced in a bioinformatic pipeline, containing absolute sequence read counts of all ASV/OTUs (including contaminant/non-targeted taxa and unassigned ASV/OTUs) across all samples (including controls). Each ASV/OTU will be provided with a unique `seq_id` at this stage. 
+    -	**Contents**: The initial ASV/OTU table produced in a bioinformatic pipeline, containing absolute sequence read counts of all ASV/OTUs (including contaminant/non-targeted taxa and unassigned ASVs/OTUs) across all samples (including controls). Each ASV/OTU will be provided with a unique `seq_id` at this stage. 
     -	**Purpose**: To communicate objective information of read counts of all OTUs/ASVs in all samples, and allow data reusers to modify or re-run the data curation steps if required. The inclusion of control samples, suspected contaminants and non-targeted taxa allows the investigations of common contamination sequences, taxa, and sources across multiple studies, and potentially identify how to minimize them.
     -	**Note**: The column names in ASV/OTU tables should be either `samp_name` or `lib_id`, making sure they maintain clear links between the experiment/run metadata and ASV/OTU table.
     -	**Note**: Although it is called a “raw” ASV/OTU table, some level of compression, quality filtering and curation may already have been applied, such as filtering based on minimum length, read counts, error rates, and OTU clustering. The extent of data curation performed on the non-curated ASV/OTU table can vary between studies depending on the bioinformatics pipeline used, and this should be described under the term `otu_raw_description` in the project metadata. 
 
 1. **Curated ASV/OTU table** (otuFinal)
 
-    -	**Contents**: An ASV/OTU table resulting from various data curation processes, including denoising (i.e., custom or LULU curation), removing control samples, and eliminating suspected contamination and non-target taxa. This table should ideally be identical to, or correspond closely to, the one used for the final (e.g. ecological) analyses published in associated scientific papers.
+    -	**Contents**: An ASV/OTU table resulting from various data curation processes, including denoising (i.e., custom or LULU curation), removing control samples, and eliminating suspected contamination and non-target taxa. This table should ideally be identical to, or correspond closely to, the one used for the final (e.g. ecological) analyses published in associated scientific papers. ASVs/OTUs without taxonomic assignments should remain in the otuFinal table if they were relevant to the analyses.
     -	**Purpose**: To facilitate reproducibility of original (ecological) analyses, and general reuse of a curated/cleaned version of the data. To improve interoperability with other types of biodiversity data, and thereby facilitate incorporation in general biodiversity databases, and make the data and underlying research discoverable and reusable for wider audiences. 
     -	**Note**: The column names in ASV/OTU tables should be either `samp_name` or `lib_id`, making sure they maintain clear links between the experiment/run metadata and ASV/OTU table.
     -	**Note**: In some studies, researchers may choose to collapse multiple ASVs/OTUs assigned to the same taxon, summing their read counts. We, however, strongly encourage data providers to submit ASV/OTU tables in their original, non-collapsed form. Preserving each ASV/OTU with its individual read counts and sequence ensures better interoperability and prevents the loss of potentially valuable ASVs/OTUs due to uncertain or erroneous taxonomic annotations resulting from incomplete or imperfect reference databases at the time of analysis. 
@@ -72,7 +72,7 @@ The figure and list below outline the associated eDNA data components as well as
 
 1. **Non-curated Sequence/Taxa table** (taxaRaw) (Optional)
 
-    -	**Contents**: In addition to the contents in the curated Sequence - Taxa table (below), this table includes ASVs/OTUs that were excluded from the curated ASV/OTU table (e.g., non-target taxa, contaminants, positive control sequences). It may also contain multiple rows for a single ASV/OTU assigned to multiple taxa, with information of each assigned taxon.
+    -	**Contents**: In addition to the contents in the curated Sequence - Taxa table (below), this table includes ASVs/OTUs that were excluded from the curated ASV/OTU table (e.g., non-target taxa, contaminants, positive control sequences, ASVs with no taxa hits). It may also contain multiple rows for a single ASV/OTU assigned to multiple taxa, with information of each assigned taxon.  
     -	**Purpose**: To enhance data transparency by providing access to ASVs, OTUs, and taxa excluded from the curated ASV/OTU table. To allow data reusers the opportunity to re-assess and re-run specific data curation steps.
     -	**Note**: When assigning a lowest common ancestor (LCA) to a single ASV/OTU, multiple rows should be generated for the ASV/OTU to capture information about each of the assigned taxa. Users may apply a similarity threshold (e.g., 97%) and include all reference sequences within this range, or a representative subsample of them, in the output.
     -	**Note**: See the example in Figure 3 (ASV1 in the non-curated Sequence/Taxa table).
@@ -81,6 +81,7 @@ The figure and list below outline the associated eDNA data components as well as
 
     -	**Contents**: DNA sequence of each `seq_id` listed in the curated ASV/OTU table. If a taxon was assigned, also include assigned taxonomy and assignment quality assurance parameters (e.g., % identity, % query coverage). If multiple taxa are assigned to a single ASV/OTU, the LCA should be used as the assigned taxon. 
     -	**Purpose**: To allow data reusers to assess the specificity and accuracy of the inferred taxonomy, and to perform taxonomic re-annotation using different or updated sequence reference databases.
+    -	**Note**: ASVs/OTUs without taxonomic assignments should be included in the taxaFinal table, but without taxonomic information (e.g., `scientificName`), if they were relevant to the study scope.
 
 
 <div align="center">
