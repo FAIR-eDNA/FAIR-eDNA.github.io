@@ -206,13 +206,260 @@ These are the current recommended practices for sharing FAIR eDNA data through t
 
 The guidelines provided here result in data formatted slightly different from those accepted by nucleotide and biodiversity databases. Hence, minor reformatting is required. One example is the necessary data format when multiple assays were applied in a single project. GBIF recently launched the [Metabarcoding Data Toolkit (MDT)](https://www.gbif.org/metabarcoding), a user-friendly web application that reshapes tabular metabarcoding data—similar to the format proposed here—and publishes it to GBIF and OBIS complying with the [guidelines in Abarenkov et al. (2023)](https://doi.org/10.35035/doc-vf1a-nr22).  The GBIF MDT currently requires a separate input dataset for each assay (hence information from project and sample metadata are repeated), whereas the FAIRe checklist allow the metadata from multiple assays to be combined (Figure 5). An R script (FAIRe2MDT) has been developed to convert FAIRe data templates for GBIF and OBIS publication via MDT, bridging the differences in data formats between FAIRe and GBIF standards (see below section ‘Available scripts and tools’). Using these tools in combination streamlines the publication of eDNA data to GBIF and OBIS. Overall, there is currently a strong effort by biodiversity data platforms to improve the suitability of depositing eDNA-based data.
 
-## Available example datasets, scripts and tools
-To provide eDNA practitioners with suggestions for how to format and publish their data, various example datasets are available in Supplementary Information (see Table S2 and S3 for the list of example datasets using targeted and metabarcoding assays, respectively). The below scripts and tools were developed to aid data formatting according to the guidelines, and are made available at the [FAIRe github repositories](https://github.com/orgs/FAIR-eDNA/repositories). 
+## Available scripts and tools
+The below scripts and tools were developed to aid data formatting according to the guidelines, and are made available at the [FAIRe github repositories](https://github.com/orgs/FAIR-eDNA/repositories). 
 
 -	**FAIRe-ator** (FAIR eDNA template generator): This R function creates data templates based on user-specified parameters, such as assay type (i.e., targeted or metabarcoding assay), sample type (e.g., water, sediment), and the number of assays applied. Additionally, the function allows users to input project ID and assay name(s), which ensures correct file name formatting and pre-fills the `project_id` and `assay_name` terms in the template. Download the README and R code [here](https://github.com/FAIR-eDNA/FAIRe-ator/blob/main).
 -	**FAIReSheets** (FAIR eDNA template generator for Google Sheets): This python script creates the FAIRe eDNA Data Template in Google Sheets. It replicates the template creation from the [FAIRe-ator](https://github.com/FAIR-eDNA/FAIRe-ator/blob/main), except FAIReSheets outputs the template to Google Sheets rather than a Microsoft Excel spreadsheet. Download the README and Python code [here](https://github.com/aomlomics/fairesheets).
 -	**FAIRe-fier** (FAIR eDNA metadata verifier): This tool is accessible via [web interface](https://shiny.csiro.au/FAIRe-fier/), with additional metadata and citation details available at [http://hdl.handle.net/102.100.100/706519?index=1](http://hdl.handle.net/102.100.100/706519?index=1). It allows users to validate their metadata without requiring any scripting knowledge. After filling their project and sample metadata, users can upload it to the tool for validation. The tool checks various components, including whether mandatory terms are completed or, if not, whether a valid reason has been provided under the `information_withheld` term in the project metadata. It also verifies that controlled vocabulary entries and fixed-format terms, such as `eventDate` (which must follow ISO 8601 format), are correctly formatted. If any issues are found, users receive output with warning and error messages, indicating where corrections are needed. Formatted output will be produced when there is no warning message.
 -	**FAIRe2MDT**: The R script to convert FAIR eDNA data templates for GBIF submission via [MDT](https://mdt.gbif.org/). Download the R code [here](https://github.com/FAIR-eDNA/FAIRe2MDT/blob/main/FAIRe2MDT.R).
+
+## Example datasets
+To provide eDNA practitioners with suggestions for how to format and publish their data, various example datasets are available. 
+
+A list of example datasets using **targeted assays**, formatted according to the FAIRe checklist v1.0. These datasets are available [here]( https://github.com/FAIR-eDNA/FAIR-eDNA.github.io/tree/main/docs/examples/targeted_assay).
+<table>
+  <thead style="background-color: #e0e0e0;">
+    <tr>
+      <th>recordedBy</th>
+      <th>Mark Louie Lopez</th>
+      <th>Neha Acharya-Patel</th>
+      <th>Cecilia Villacorta-Rath</th>
+      <th>Lynsey Harper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>project_id</b></td>
+      <td>AEP_Fish_sedDNA</td>
+      <td>Rockfish_targeted_qPCR</td>
+      <td>EirwiniBurdekin</td>
+      <td>NECR534_GCN_single-species</td>
+    </tr>
+    <tr>
+      <td><b>bibliographicCitation</b></td>
+      <td><a href="https://doi.org/10.1016/j.ecolind.2023.111014">DOI</a></td>
+      <td><a href="https://doi.org/10.1016/j.ecolind.2024.111830">DOI</a></td>
+      <td><a href="https://doi.org/10.1186/s12862-022-02009-6">DOI</a></td>
+      <td><a href="https://publications.naturalengland.org.uk/publication/5177901000163328">Link</a></td>
+    </tr>
+    <tr>
+      <td><b>assay_type</b></td>
+      <td>targeted</td>
+      <td>targeted</td>
+      <td>targeted</td>
+      <td>targeted</td>
+    </tr>
+    <tr>
+      <td><b>assay_name</b></td>
+      <td>eFish1 | eESLU1 | eCOAR7</td>
+      <td>eSEMA3 | eSEPA9 | eSERU5</td>
+      <td>EirwiniND4</td>
+      <td>TCCB</td>
+    </tr>
+    <tr>
+      <td><b>env_medium</b></td>
+      <td>lake sediment [ENVO:00000546]</td>
+      <td>sea water [ENVO:00002149]</td>
+      <td>river water [ENVO:01000599]</td>
+      <td>liquid water [ENVO:00002006]</td>
+    </tr>
+    <tr>
+      <td><b>Output file 1</b></td>
+      <td>AEP_Fish_sedDNA.xlsx</td>
+      <td>Rockfish_targeted_qPCR.xlsx</td>
+      <td>EirwiniBurdekin.xlsx</td>
+      <td>NECR534_GCN_single-species.XLSX</td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 1</b></td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 2</b></td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 3</b></td>
+      <td>stdData</td>
+      <td>stdData</td>
+      <td>ampData</td>
+      <td>stdData</td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 4</b></td>
+      <td>eLowQuantData</td>
+      <td>eLowQuantData</td>
+      <td></td>
+      <td>ampData</td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 5</b></td>
+      <td>ampData_eFish1</td>
+      <td>ampData_eSERU5</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 6</b></td>
+      <td>ampData_eESLU1</td>
+      <td>ampData_eSEPA9</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 7</b></td>
+      <td>ampData_eCOAR7</td>
+      <td>ampData_eSEMA3</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+A list of example datasets using **metabarcoding assays**, formatted according to the FAIRe checklist v1.0. These datasets are available [here]( https://github.com/FAIR-eDNA/FAIR-eDNA.github.io/tree/main/docs/examples/metabarcoding).
+
+<table>
+  <thead style="background-color: #e0e0e0;">
+    <tr>
+      <th>recordedBy</th>
+      <th>Bruce Deagle</th>
+      <th>Luke Thompson</th>
+      <th>Nick Dunn</th>
+      <th>Katrina West</th>
+      <th>Rachel Haderlé</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>project_id</b></td>
+      <td>CPR_2015</td>
+      <td>noaa-aoml-gomecc4</td>
+      <td>NECR534_GCN_metabarcoding</td>
+      <td>IOT-eDNA</td>
+      <td>verte_quadeloupe</td>
+    </tr>
+    <tr>
+      <td><b>bibliographicCitation</b></td>
+      <td><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.12740">DOI</a></td>
+      <td><a href="https://doi.org/10.1101/2024.07.30.605667">DOI</a></td>
+      <td><a href="https://publications.naturalengland.org.uk/publication/5177901000163328">Link</a></td>
+      <td>West et al., in prep</td>
+      <td><a href="https://doi.org/10.48579/PRO/EHR5AC">DOI</a></td>
+    </tr>
+    <tr>
+      <td><b>assay_type</b></td>
+      <td>metabarcoding</td>
+      <td>metabarcoding</td>
+      <td>metabarcoding</td>
+      <td>metabarcoding</td>
+      <td>metabarcoding</td>
+    </tr>
+    <tr>
+      <td><b>assay_name</b></td>
+      <td>LerayCOI</td>
+      <td>ssu16sv4v5-emp | ssu18sv9-emp</td>
+      <td>12S-V5</td>
+      <td>16SFish | COILeray</td>
+      <td>vert01 | tele01 | mamm01 | cetac</td>
+    </tr>
+    <tr>
+      <td><b>env_medium</b></td>
+      <td>planktonic material [ENVO:01000063]</td>
+      <td>sea water [ENVO:00002149] | marine sediment [ENVO:03000033]</td>
+      <td>liquid water [ENVO:00002006]</td>
+      <td>sea water [ENVO:00002149]</td>
+      <td>water surface [ENVO:01001191]</td>
+    </tr>
+    <tr>
+      <td><b>Output file 1</b></td>
+      <td>CPR_2015.xlsx</td>
+      <td>noaa-aoml-gomecc4.xlsx</td>
+      <td>NECR534_GCN_metabarcoding.xlsx</td>
+      <td>IOT-eDNA.xlsx</td>
+      <td>verte_quadeloupe.xlsx</td>
+    </tr>
+    <tr>
+      <td><b>Output file 2</b></td>
+      <td></td>
+      <td>outRaw_* (for each assay and sequencing run)</td>
+      <td></td>
+      <td>otuFinal_* (for each assay and sequencing run)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>Output file 3</b></td>
+      <td></td>
+      <td>outFinal_* (for each assay and sequencing run)</td>
+      <td></td>
+      <td>taxaFinal_* (for each assay and sequencing run)</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>Output file 4</b></td>
+      <td></td>
+      <td>taxaRaw_* (for each assay and sequencing run)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>Output file 5</b></td>
+      <td></td>
+      <td>taxaFinal_* (for each assay and sequencing run)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 1</b></td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 2</b></td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 3</b></td>
+      <td>experimentRunMetadata</td>
+      <td>experimentRunMetadata</td>
+      <td>experimentRunMetadata</td>
+      <td>experimentRunMetadata</td>
+      <td>otuFinal_* (for each assay and sequencing run)</td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 4</b></td>
+      <td>otuFinal</td>
+      <td></td>
+      <td>otuFinal</td>
+      <td></td>
+      <td>taxaFinal_* (for each assay and sequencing run)</td>
+    </tr>
+    <tr>
+      <td><b>Excel worksheet 5</b></td>
+      <td>taxaFinal</td>
+      <td></td>
+      <td>taxaFinal</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
 
 ## Useful resources
 The current FAIRe frameworks were developed using the following resources as foundational starting points.
