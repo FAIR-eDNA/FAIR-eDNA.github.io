@@ -221,7 +221,7 @@ Below is a list of example datasets using **targeted assays**, formatted accordi
 <table>
   <thead>
     <tr>
-      <th style="background-color: lightgrey;"><b>recordedBy</b></th>
+      <th style="background-color: grey;"><b>recordedBy</b></th>
       <th>Mark Louie Lopez</th>
       <th>Neha Acharya-Patel</th>
       <th>Cecilia Villacorta-Rath</th>
@@ -230,91 +230,91 @@ Below is a list of example datasets using **targeted assays**, formatted accordi
   </thead>
   <tbody>
     <tr>
-      <td style="background-color: lightgrey;"><b>project_id</b></td>
+      <td style="background-color: grey;"><b>project_id</b></td>
       <td>AEP_Fish_sedDNA</td>
       <td>Rockfish_targeted_qPCR</td>
       <td>EirwiniBurdekin</td>
       <td>NECR534_GCN_single-species</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>bibliographicCitation</b></td>
+      <td style="background-color: grey;"><b>bibliographicCitation</b></td>
       <td><a href="https://doi.org/10.1016/j.ecolind.2023.111014">DOI</a></td>
       <td><a href="https://doi.org/10.1016/j.ecolind.2024.111830">DOI</a></td>
       <td><a href="https://doi.org/10.1186/s12862-022-02009-6">DOI</a></td>
       <td><a href="https://publications.naturalengland.org.uk/publication/5177901000163328">Link</a></td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>assay_type</b></td>
+      <td style="background-color: grey;"><b>assay_type</b></td>
       <td>targeted</td>
       <td>targeted</td>
       <td>targeted</td>
       <td>targeted</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>assay_name</b></td>
+      <td style="background-color: grey;"><b>assay_name</b></td>
       <td>eFish1 | eESLU1 | eCOAR7</td>
       <td>eSEMA3 | eSEPA9 | eSERU5</td>
       <td>EirwiniND4</td>
       <td>TCCB</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>env_medium</b></td>
+      <td style="background-color: grey;"><b>env_medium</b></td>
       <td>lake sediment [ENVO:00000546]</td>
       <td>sea water [ENVO:00002149]</td>
       <td>river water [ENVO:01000599]</td>
       <td>liquid water [ENVO:00002006]</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Output file 1</b></td>
+      <td style="background-color: grey;"><b>Output file 1</b></td>
       <td>AEP_Fish_sedDNA.xlsx</td>
       <td>Rockfish_targeted_qPCR.xlsx</td>
       <td>EirwiniBurdekin.xlsx</td>
       <td>NECR534_GCN_single-species.XLSX</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 1</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 1</b></td>
       <td>projectMetadata</td>
       <td>projectMetadata</td>
       <td>projectMetadata</td>
       <td>projectMetadata</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 2</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 2</b></td>
       <td>sampleMetadata</td>
       <td>sampleMetadata</td>
       <td>sampleMetadata</td>
       <td>sampleMetadata</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 3</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 3</b></td>
       <td>stdData</td>
       <td>stdData</td>
       <td>ampData</td>
       <td>stdData</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 4</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 4</b></td>
       <td>eLowQuantData</td>
       <td>eLowQuantData</td>
       <td></td>
       <td>ampData</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 5</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 5</b></td>
       <td>ampData_eFish1</td>
       <td>ampData_eSERU5</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 6</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 6</b></td>
       <td>ampData_eESLU1</td>
       <td>ampData_eSEPA9</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 7</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 7</b></td>
       <td>ampData_eCOAR7</td>
       <td>ampData_eSEMA3</td>
       <td></td>
@@ -328,7 +328,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
 <table>
   <thead>
     <tr>
-      <th style="background-color: lightgrey;"><b>recordedBy</b></th>
+      <th style="background-color: grey;"><b>recordedBy</b></th>
       <th>Bruce Deagle</th>
       <th>Luke Thompson</th>
       <th>Nick Dunn</th>
@@ -338,7 +338,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
   </thead>
   <tbody>
     <tr>
-      <td style="background-color: lightgrey;"><b>project_id</b></td>
+      <td style="background-color: grey;"><b>project_id</b></td>
       <td>CPR_2015</td>
       <td>noaa-aoml-gomecc4</td>
       <td>NECR534_GCN_metabarcoding</td>
@@ -346,7 +346,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>verte_quadeloupe</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>bibliographicCitation</b></td>
+      <td style="background-color: grey;"><b>bibliographicCitation</b></td>
       <td><a href="https://onlinelibrary.wiley.com/doi/full/10.1111/1755-0998.12740">DOI</a></td>
       <td><a href="https://doi.org/10.1101/2024.07.30.605667">DOI</a></td>
       <td><a href="https://publications.naturalengland.org.uk/publication/5177901000163328">Link</a></td>
@@ -354,7 +354,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td><a href="https://doi.org/10.48579/PRO/EHR5AC">DOI</a></td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>assay_type</b></td>
+      <td style="background-color: grey;"><b>assay_type</b></td>
       <td>metabarcoding</td>
       <td>metabarcoding</td>
       <td>metabarcoding</td>
@@ -362,7 +362,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>metabarcoding</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>assay_name</b></td>
+      <td style="background-color: grey;"><b>assay_name</b></td>
       <td>LerayCOI</td>
       <td>ssu16sv4v5-emp | ssu18sv9-emp</td>
       <td>12S-V5</td>
@@ -370,7 +370,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>vert01 | tele01 | mamm01 | cetac</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>env_medium</b></td>
+      <td style="background-color: grey;"><b>env_medium</b></td>
       <td>planktonic material [ENVO:01000063]</td>
       <td>sea water [ENVO:00002149] | marine sediment [ENVO:03000033]</td>
       <td>liquid water [ENVO:00002006]</td>
@@ -378,7 +378,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>water surface [ENVO:01001191]</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Output file 1</b></td>
+      <td style="background-color: grey;"><b>Output file 1</b></td>
       <td>CPR_2015.xlsx</td>
       <td>noaa-aoml-gomecc4.xlsx</td>
       <td>NECR534_GCN_metabarcoding.xlsx</td>
@@ -386,7 +386,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>verte_quadeloupe.xlsx</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Output file 2</b></td>
+      <td style="background-color: grey;"><b>Output file 2</b></td>
       <td></td>
       <td>outRaw_* (for each assay and sequencing run)</td>
       <td></td>
@@ -394,7 +394,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td></td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Output file 3</b></td>
+      <td style="background-color: grey;"><b>Output file 3</b></td>
       <td></td>
       <td>outFinal_* (for each assay and sequencing run)</td>
       <td></td>
@@ -402,7 +402,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td></td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Output file 4</b></td>
+      <td style="background-color: grey;"><b>Output file 4</b></td>
       <td></td>
       <td>taxaRaw_* (for each assay and sequencing run)</td>
       <td></td>
@@ -410,7 +410,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td></td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Output file 5</b></td>
+      <td style="background-color: grey;"><b>Output file 5</b></td>
       <td></td>
       <td>taxaFinal_* (for each assay and sequencing run)</td>
       <td></td>
@@ -418,7 +418,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td></td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 1</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 1</b></td>
       <td>projectMetadata</td>
       <td>projectMetadata</td>
       <td>projectMetadata</td>
@@ -426,7 +426,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>projectMetadata</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 2</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 2</b></td>
       <td>sampleMetadata</td>
       <td>sampleMetadata</td>
       <td>sampleMetadata</td>
@@ -434,7 +434,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>sampleMetadata</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 3</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 3</b></td>
       <td>experimentRunMetadata</td>
       <td>experimentRunMetadata</td>
       <td>experimentRunMetadata</td>
@@ -442,7 +442,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>otuFinal_* (for each assay and sequencing run)</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 4</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 4</b></td>
       <td>otuFinal</td>
       <td></td>
       <td>otuFinal</td>
@@ -450,7 +450,7 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>taxaFinal_* (for each assay and sequencing run)</td>
     </tr>
     <tr>
-      <td style="background-color: lightgrey;"><b>Excel worksheet 5</b></td>
+      <td style="background-color: grey;"><b>Excel worksheet 5</b></td>
       <td>taxaFinal</td>
       <td></td>
       <td>taxaFinal</td>
