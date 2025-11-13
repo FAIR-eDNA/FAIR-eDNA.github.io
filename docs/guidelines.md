@@ -236,8 +236,8 @@ Below is a list of example datasets using **targeted assays**, formatted accordi
       <td>EirwiniBurdekin</td>
       <td>NECR534_GCN_single-species</td>
     </tr>
-    <tr style="background-color: #e0e0e0;">
-      <td><b>bibliographicCitation</b></td>
+    <tr>
+      <td style="background-color: #e0e0e0;"><b>bibliographicCitation</b></td>
       <td><a href="https://doi.org/10.1016/j.ecolind.2023.111014">DOI</a></td>
       <td><a href="https://doi.org/10.1016/j.ecolind.2024.111830">DOI</a></td>
       <td><a href="https://doi.org/10.1186/s12862-022-02009-6">DOI</a></td>
@@ -441,16 +441,16 @@ A list of example datasets using **metabarcoding assays**, formatted according t
       <td>experimentRunMetadata</td>
       <td>otuFinal_* (for each assay and sequencing run)</td>
     </tr>
-    <tr style="background-color: #e0e0e0;">
-      <td><b>Excel worksheet 4</b></td>
+    <tr>
+      <td style="background-color: #e0e0e0;"><b>Excel worksheet 4</b></td>
       <td>otuFinal</td>
       <td></td>
       <td>otuFinal</td>
       <td></td>
       <td>taxaFinal_* (for each assay and sequencing run)</td>
     </tr>
-    <tr style="background-color: #e0e0e0;">
-      <td><b>Excel worksheet 5</b></td>
+    <tr>
+      <td style="background-color: #e0e0e0;"><b>Excel worksheet 5</b></td>
       <td>taxaFinal</td>
       <td></td>
       <td>taxaFinal</td>
