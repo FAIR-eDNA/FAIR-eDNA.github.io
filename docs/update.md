@@ -7,7 +7,7 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 - NOAA (Atlantic Oceanographic Meteorological Laboratory ([AOML](https://www.aoml.noaa.gov/)) & Pacific Marine Environmental Laboratory ([PMEL](https://www.pmel.noaa.gov/))
 -	[Minderoo Foundation OceanOmics](https://www.minderoo.org/resources/oceanomics/)
 
-<table style="border-collapse: collapse; width: auto; margin: 0 auto;">
+<table style="border: none; border-collapse: collapse; width: auto; margin: 0 auto;">
   <tr>
     <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/noaa_logo.png" height="80">
@@ -24,7 +24,7 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 -	[Better Biomolecular Ocean Practices (BeBOP)](https://bebop-obon.github.io/protocol_template_description.html)
 -	[Ocean Biomolecular Observing Network (OBON)](https://obon-ocean.org/)
 
-<table style="border-collapse: collapse; width: auto; margin: 0 auto;">
+<table style="border: none; border-collapse: collapse; width: auto; margin: 0 auto;">
   <tr>
     <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/anemone_logo.jpg" height="80">
