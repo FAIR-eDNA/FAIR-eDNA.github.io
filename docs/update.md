@@ -30,11 +30,6 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
       <img src="assets/images/anemone_logo.jpg" height="80">
     </td>
     <td style="border: none; text-align: center; vertical-align: middle;">
-      <img src="assets/images/imos_logo.png" height="80">
-    </td>
-  </tr>
-  <tr>
-    <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/bebop_logo.png" height="80">
     </td>
     <td style="border: none; text-align: center; vertical-align: middle;">
@@ -42,6 +37,7 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
     </td>
   </tr>
 </table>
+
 
 *If your lab/project/community has implemented or is actively working to implement FAIRe, please [contact us](https://fair-edna.github.io/contact.html) - we would love to list your organisation here and connect with you to hear your feedback.
 
