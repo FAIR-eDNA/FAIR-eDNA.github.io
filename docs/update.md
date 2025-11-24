@@ -7,17 +7,16 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 - NOAA (Atlantic Oceanographic Meteorological Laboratory ([AOML](https://www.aoml.noaa.gov/)) & Pacific Marine Environmental Laboratory ([PMEL](https://www.pmel.noaa.gov/))
 -	[Minderoo Foundation OceanOmics](https://www.minderoo.org/resources/oceanomics/)
 
-<table>
+<table style="border-collapse: collapse; width: auto; margin: 0 auto;">
   <tr>
-    <td align="center">
+    <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/noaa_logo.png" height="80">
     </td>
-    <td align="center">
+    <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/minderoo_logo.png" height="80">
     </td>
   </tr>
 </table>
-
 
 ###  Implementation in progress
 -	[All Nippon eDNA Monitoring Network (ANEMONE) GLOBAL](https://oceandecade.org/actions/anemone-global/)
@@ -25,25 +24,24 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 -	[Better Biomolecular Ocean Practices (BeBOP)](https://bebop-obon.github.io/protocol_template_description.html)
 -	[Ocean Biomolecular Observing Network (OBON)](https://obon-ocean.org/)
 
-<table>
+<table style="border-collapse: collapse; width: auto; margin: 0 auto;">
   <tr>
-    <td align="center">
+    <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/anemone_logo.jpg" height="80">
     </td>
-    <td align="center">
+    <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/imos_logo.png" height="80">
     </td>
   </tr>
   <tr>
-    <td align="center">
+    <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/bebop_logo.png" height="80">
     </td>
-    <td align="center">
+    <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/obon_logo.png" height="80">
     </td>
   </tr>
 </table>
-
 
 *If your lab/project/community has implemented or is actively working to implement FAIRe, please [contact us](https://fair-edna.github.io/contact.html) - we would love to list your organisation here and connect with you to hear your feedback.
 
