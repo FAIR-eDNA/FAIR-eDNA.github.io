@@ -7,16 +7,17 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 - NOAA (Atlantic Oceanographic Meteorological Laboratory ([AOML](https://www.aoml.noaa.gov/)) & Pacific Marine Environmental Laboratory ([PMEL](https://www.pmel.noaa.gov/))
 -	[Minderoo Foundation OceanOmics](https://www.minderoo.org/resources/oceanomics/)
 
-<table style="width:100%;">
+<table>
   <tr>
-    <td style="width:50%; text-align:center;">
-      <img src="assets/images/noaa_logo.png" style="max-width:150px;">
+    <td align="center">
+      <img src="assets/images/noaa_logo.png" height="80">
     </td>
-    <td style="width:50%; text-align:center;">
-      <img src="assets/images/minderoo_logo.png" style="max-width:150px;">
+    <td align="center">
+      <img src="assets/images/minderoo_logo.png" height="80">
     </td>
   </tr>
 </table>
+
 
 ###  Implementation in progress
 -	[All Nippon eDNA Monitoring Network (ANEMONE) GLOBAL](https://oceandecade.org/actions/anemone-global/)
@@ -24,24 +25,25 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 -	[Better Biomolecular Ocean Practices (BeBOP)](https://bebop-obon.github.io/protocol_template_description.html)
 -	[Ocean Biomolecular Observing Network (OBON)](https://obon-ocean.org/)
 
-<table style="width:100%;">
+<table>
   <tr>
-    <td style="width:50%; text-align:center;">
-      <img src="assets/images/anemone_logo.jpg" style="max-width:150px;">
+    <td align="center">
+      <img src="assets/images/anemone_logo.jpg" height="80">
     </td>
-    <td style="width:50%; text-align:center;">
-      <img src="assets/images/imos_logo.png" style="max-width:150px;">
+    <td align="center">
+      <img src="assets/images/imos_logo.png" height="80">
     </td>
   </tr>
   <tr>
-    <td style="width:50%; text-align:center;">
-      <img src="assets/images/bebop_logo.png" style="max-width:150px;">
+    <td align="center">
+      <img src="assets/images/bebop_logo.png" height="80">
     </td>
-    <td style="width:50%; text-align:center;">
-      <img src="assets/images/obon_logo.png" style="max-width:150px;">
+    <td align="center">
+      <img src="assets/images/obon_logo.png" height="80">
     </td>
   </tr>
 </table>
+
 
 *If your lab/project/community has implemented or is actively working to implement FAIRe, please [contact us](https://fair-edna.github.io/contact.html) - we would love to list your organisation here and connect with you to hear your feedback.
 
