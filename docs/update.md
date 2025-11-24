@@ -10,10 +10,10 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 <table style="width:100%;">
   <tr>
     <td style="width:50%; text-align:center;">
-      <img src="docs/assets/images/noaa_logo.png" style="max-width:150px;">
+      <img src="assets/images/noaa_logo.png" style="max-width:150px;">
     </td>
     <td style="width:50%; text-align:center;">
-      <img src="docs/assets/images/minderoo_logo.png" style="max-width:150px;">
+      <img src="assets/images/minderoo_logo.png" style="max-width:150px;">
     </td>
   </tr>
 </table>
@@ -27,18 +27,18 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 <table style="width:100%;">
   <tr>
     <td style="width:50%; text-align:center;">
-      <img src="docs/assets/images/anemone_logo.jpg" style="max-width:150px;">
+      <img src="assets/images/anemone_logo.jpg" style="max-width:150px;">
     </td>
     <td style="width:50%; text-align:center;">
-      <img src="docs/assets/images/imos_logo.png" style="max-width:150px;">
+      <img src="assets/images/imos_logo.png" style="max-width:150px;">
     </td>
   </tr>
   <tr>
     <td style="width:50%; text-align:center;">
-      <img src="docs/assets/images/bebop_logo.png" style="max-width:150px;">
+      <img src="assets/images/bebop_logo.png" style="max-width:150px;">
     </td>
     <td style="width:50%; text-align:center;">
-      <img src="docs/assets/images/obon_logo.png" style="max-width:150px;">
+      <img src="assets/images/obon_logo.png" style="max-width:150px;">
     </td>
   </tr>
 </table>
