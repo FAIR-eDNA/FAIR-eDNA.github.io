@@ -6,11 +6,42 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 ### 2025 Implementation completed
 - NOAA (Atlantic Oceanographic Meteorological Laboratory ([AOML](https://www.aoml.noaa.gov/)) & Pacific Marine Environmental Laboratory ([PMEL](https://www.pmel.noaa.gov/))
 -	[Minderoo Foundation OceanOmics](https://www.minderoo.org/resources/oceanomics/)
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%; text-align:center;">
+      <img src="docs/assets/images/noaa_logo.png" style="max-width:150px;">
+    </td>
+    <td style="width:50%; text-align:center;">
+      <img src="docs/assets/images/minderoo_logo.png" style="max-width:150px;">
+    </td>
+  </tr>
+</table>
+
 ###  Implementation in progress
 -	[All Nippon eDNA Monitoring Network (ANEMONE) GLOBAL](https://oceandecade.org/actions/anemone-global/)
 -	[Integrated Marine Observing System (IMOS) eDNA sub-facility](https://imos.org.au/facility/biomolecular-observing/environmental-dna)
 -	[Better Biomolecular Ocean Practices (BeBOP)](https://bebop-obon.github.io/protocol_template_description.html)
 -	[Ocean Biomolecular Observing Network (OBON)](https://obon-ocean.org/)
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%; text-align:center;">
+      <img src="docs/assets/images/anemone_logo.jpg" style="max-width:150px;">
+    </td>
+    <td style="width:50%; text-align:center;">
+      <img src="docs/assets/images/imos_logo.png" style="max-width:150px;">
+    </td>
+  </tr>
+  <tr>
+    <td style="width:50%; text-align:center;">
+      <img src="docs/assets/images/bebop_logo.png" style="max-width:150px;">
+    </td>
+    <td style="width:50%; text-align:center;">
+      <img src="docs/assets/images/obon_logo.png" style="max-width:150px;">
+    </td>
+  </tr>
+</table>
 
 *If your lab/project/community has implemented or is actively working to implement FAIRe, please [contact us](https://fair-edna.github.io/contact.html) - we would love to list your organisation here and connect with you to hear your feedback.
 
