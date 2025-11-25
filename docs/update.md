@@ -30,7 +30,7 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
       <img src="assets/images/anemone_logo.jpg" height="80">
     </td>
      <td style="border: none; text-align: center; vertical-align: middle;">
-      <img src="assets/images/imos_logo.png" height="60">
+      <img src="assets/images/imos_logo.png" height="40">
     </td>
     <td style="border: none; text-align: center; vertical-align: middle;">
       <img src="assets/images/bebop_logo.png" height="80">
