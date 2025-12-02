@@ -12,6 +12,7 @@ nav:
 
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/images/ednafair_icon.svg
   favicon: assets/images/ednafair_icon.svg
   palette:
