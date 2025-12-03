@@ -470,6 +470,12 @@ A list of example datasets using **metabarcoding assays**, formatted according t
   </tbody>
 </table>
 
+## Frequently Asked Questions
+Q. **What should I do with ASVs that have no BLAST hits?**
+A. ASVs without taxonomic hits are still valuable (e.g., for future re-annotation as reference databases improve). They should be included in the **otuRaw** and **taxaRaw** tables without taxonomic fields such as `scientificName`. If these ASVs fall within the scope of your study and are relevant to ecological analyses, they should also be retained in **otuFinal** and **taxaFinal**.
+
+Q. **Can FAIRe-fier verify all data components?**
+A. No. Currently, FAIRe-fier validates **projectMetadata** and **sampleMetadata** for both metabarcoding and targeted assay studies, but does not yet validate other components (e.g., **experimentRunMetadata**, **ampData**). Support for these additional components is planned for a future version of FAIRe-fier.
 
 ## Useful resources
 The current FAIRe frameworks were developed using the following resources as foundational starting points.
