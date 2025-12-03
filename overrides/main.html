@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchProject",
+    "name": "FAIR eDNA",
+    "alternateName": ["FAIRe", "FAIR-eDNA", "FAIRe eDNA"],
+    "description": "Comprehensive FAIR metadata checklist for environmental DNA (eDNA) studies, integrating Darwin Core and MIxS standards for biodiversity monitoring.",
+    "url": "https://fair-edna.github.io/",
+    "keywords": ["FAIRe", "eDNA", "environmental DNA", "FAIR data", "biodiversity", "metabarcoding", "Darwin Core", "MIxS", "qPCR", "species detection"],
+    "sameAs": [
+      "https://github.com/FAIR-eDNA"
+    ]
+  }
+  </script>
+{% endblock %}
