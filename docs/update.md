@@ -23,6 +23,8 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 -	[Integrated Marine Observing System (IMOS) eDNA sub-facility](https://imos.org.au/facility/biomolecular-observing/environmental-dna)
 -	[Better Biomolecular Ocean Practices (BeBOP)](https://bebop-obon.github.io/protocol_template_description.html)
 -	[Ocean Biomolecular Observing Network (OBON)](https://obon-ocean.org/)
+-	[eDNA Frontiers](https://www.ednafrontiers.com/)
+-	[Trace and Environmental DNA Laboratory (TrEnD Lab)](https://research.curtin.edu.au/scieng/research/trend-lab/), Curtin University
 
 <table style="border: none; border-collapse: collapse; width: auto; margin: 0 auto;">
   <tr>
