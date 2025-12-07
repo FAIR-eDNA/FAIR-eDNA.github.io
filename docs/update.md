@@ -27,7 +27,7 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 -	[Trace and Environmental DNA Laboratory (TrEnD Lab)](https://research.curtin.edu.au/scieng/research/trend-lab/), Curtin University
 
 <div align="center">
-    <img src="/assets/images/logos_implementation_in_progress.png">
+    <img src="/assets/images/logos_implementation_in_progress.png" alt="implementation in progress" width="95%">
 </div>
 
 *If your lab/project/community has implemented or is actively working to implement FAIRe, please [contact us](https://fair-edna.github.io/contact.html) - we would love to list your organisation here and connect with you to hear your feedback.
