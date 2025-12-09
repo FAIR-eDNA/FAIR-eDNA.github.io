@@ -25,6 +25,7 @@ We are excited to see more eDNA communities and laboratories adopting the FAIRe 
 -	[Ocean Biomolecular Observing Network (OBON)](https://obon-ocean.org/)
 -	[eDNA Frontiers](https://www.ednafrontiers.com/)
 -	[Trace and Environmental DNA Laboratory (TrEnD Lab)](https://research.curtin.edu.au/scieng/research/trend-lab/), Curtin University
+-	[Metabarcoding and Metagenomics (MBMG)](https://mbmg.pensoft.net/)
 
 <div align="center">
     <img src="/assets/images/logos_implementation_in_progress.png" alt="implementation in progress" width="95%">
