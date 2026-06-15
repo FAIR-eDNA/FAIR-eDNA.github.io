@@ -2,7 +2,7 @@
 The latest version of the FAIRe metadata checklist (v1.0.2 released on 2025-07-02) is available in Excel format [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2.xlsx)  
 You can access previous versions and change logs [here](https://github.com/FAIR-eDNA/FAIRe_checklist/tree/main).
 
-In response to requests from the Japanese eDNA community, we have developed a Japanese translation of the FAIRe eDNA Metadata Checklist. We gratefully acknowledge Mr. Masatoshi Nakamura (IDEA Consultants, Inc.) for leading the translation effort. Download the Japanese version [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx). 日本語版FAIRe eDNAメタデータチェックリストのダウンロードは[こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx)。
+In response to requests from the Japanese eDNA community, we have developed a Japanese translation of the FAIRe eDNA Metadata Checklist. We gratefully acknowledge Mr. Masatoshi Nakamura (IDEA Consultants, Inc.) for leading the translation effort. Download the Japanese version [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx). 日本語版FAIReメタデータチェックリストのダウンロードは[こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx)。
 
 ## FAIRe template
 Click [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_FULLtemplate.xlsx) to download the FAIRe FULL template (v1.0.2). 
