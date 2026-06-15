@@ -2,7 +2,7 @@
 We are continuously working to enhance the FAIRe guidelines. Check this page regularly to see the latest updates, new developments, and ongoing activities!
 
 ### 2026-06-15 : Japanese translation of the FAIRe checklist ###
-In response to requests from the Japanese eDNA community, we have developed a Japanese translation of the FAIRe Metadata Checklist. We gratefully acknowledge Mr. Masatoshi Nakamura (IDEA Consultants, Inc.) for leading the translation effort. Download the Japanese version here. 
+In response to requests from the Japanese eDNA community, we have developed a Japanese translation of the FAIRe Metadata Checklist. We gratefully acknowledge Mr. Masatoshi Nakamura (IDEA Consultants, Inc.) for leading the translation effort. Download the Japanese version [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx). 
 
 ### 2025-11-13 : TDWG/GSC collaboration ###
 In early 2025, we established the TDWG and GSC eDNA task groups with both original and new FAIRe members. Our goal is to develop eDNA checklists in Darwin Core (DwC) and MIxS under the TDWG and GSC frameworks. 
