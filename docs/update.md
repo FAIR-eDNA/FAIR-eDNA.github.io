@@ -18,8 +18,30 @@ We are excited to announce the formation of the FAIRe Coding Working Group, focu
 The group includes members experienced in coding and passionate about FAIR principles. Our aim is to create scripts and tools that help the community adopt FAIRe guidelines in their workflows, automate data formatting, mapping, and submissions, and facilitate broader adoption of FAIRe practices.  
 We plan to develop these tools in both **R** and **Python** as part of a new package.
 
+## FAIRe workshops ##
+To support the implementation of FAIRe workflows, we regularly host workshops in collaboration with partners around the world.
 
-### FAIRe Implementors ###
+### Self-pased online tutorials ###
+Can't attend a workshop in person? Our self-paced online tutorial materials are freely available.
+These resources were originally developed for the [OBON FAIR eDNA Workshop](https://obon-ocean.org/2026/07/09/obon-fair-edna-workshop/). They cover the FAIRe and [BeBOP](https://bebop-obon.github.io/) standards, the [OBIS](https://obis.org/) data publication workflow, and include hands-on practical exercises using demonstration datasets that you can follow at your own pace with your own data.
+**Tutorial materials** 
+- [Video tutorials](https://www.youtube.com/playlist?list=PLS6jqgZoUzto)
+- Datasets used in the tutorials:
+  - [FAIRe demonstration datasets](https://github.com/FAIR-eDNA/Workshop/tree/main/2026-07%20OBON%20workshop)
+  - [FAIRe NOAA datasets](https://github.com/aomlomics/ODE_testdata/tree/main/noaa-sefsc-gu1901)    
+
+### Upcoming workshops ###
+- 2027-02 - [3rd Southern eDNA Conference](https://www.sednasociety.com/event-details/3rd-southern-edna-conference-2027), Canberra, Australia: In-person. Joint workshop with [Bioplatforms Australia](https://bioplatforms.com/) and [Galaxy Australia](https://usegalaxy.org.au/).
+- 2026-10-27 - [Global eDNA Confernece](https://www.mtsociety.org/global-edna-conference), Seattle, USA: In-person. Joint workshop with [BeBOP](https://bebop-obon.github.io/) and [GBIF](https://www.gbif.org/)
+- 2026-10-12 - [The 9th Annual Meeting of The eDNA Society](https://pub.confit.atlas.jp/en/event/edna9/content/outline), Sendai, Japan. In-person. Launguage - Japanese.
+- 2026-07 - [OBON FAIR eDNA Data wokrshop](https://obon-ocean.org/2026/07/09/obon-fair-edna-workshop/): Self-paced online tutorials with accompanying live online sessions. 
+
+### Previous workshops ###
+- 2025-07-25 - London, UK. Hybrid. Joint workshop with [GBIF UK](https://www.gbif.org/country/GB/summary).
+- 2025-04-10 - Perth, Australia. In-person.
+- 2025-02-18 - [2nd Australian & New Zealand eDNA Conference](https://www.gbif.org/country/GB/summary), Wellington, New Zealand. In-person. 
+
+## FAIRe Implementors ##
 We are excited to see more eDNA communities and laboratories adopting the FAIRe guidelines in their workflows and making thousands of eDNA records FAIR!  
 
 **2025 Implementation completed**
