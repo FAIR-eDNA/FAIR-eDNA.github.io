@@ -24,10 +24,11 @@ To support the implementation of FAIRe workflows, we regularly host workshops in
 ### Self-pased online tutorials ###
 Can't attend a workshop in person? Our self-paced online tutorial materials are freely available.
 These resources were originally developed for the [OBON FAIR eDNA Workshop](https://obon-ocean.org/2026/07/09/obon-fair-edna-workshop/). They cover the FAIRe and [BeBOP](https://bebop-obon.github.io/) standards, the [OBIS](https://obis.org/) data publication workflow, and include hands-on practical exercises using demonstration datasets that you can follow at your own pace with your own data.
+
 **Tutorial materials** 
 - [Video tutorials](https://www.youtube.com/playlist?list=PLS6jqgZoUzto)
 - [FAIRe demonstration datasets](https://github.com/FAIR-eDNA/Workshop/tree/main/2026-07%20OBON%20workshop)
-  [FAIRe NOAA datasets](https://github.com/aomlomics/ODE_testdata/tree/main/noaa-sefsc-gu1901)    
+- [FAIRe NOAA datasets](https://github.com/aomlomics/ODE_testdata/tree/main/noaa-sefsc-gu1901)
 
 ### Upcoming workshops ###
 - 2027-02 - [3rd Southern eDNA Conference](https://www.sednasociety.com/event-details/3rd-southern-edna-conference-2027), Canberra, Australia: In-person. Joint workshop with [Bioplatforms Australia](https://bioplatforms.com/) and [Galaxy Australia](https://usegalaxy.org.au/).
