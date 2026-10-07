@@ -5,7 +5,7 @@
 </div>
 
 <div style="border: 1px solid black; padding: 10px; font-size: 18px;">
-    これはコミュニティ主導の継続的な取り組みであり、ご意見や協力を踏まえてこのサイトの<a href="https://fair-edna.github.io/download.html">製品</a>を随時改良・更新しています。詳しくは、<a href="https://fair-edna.github.io/next.html">次に取り組むこと</a>のページをご覧ください。ここでは、<a href="https://www.gensc.org/">Genomic Standards Consortium (GSC)</a>や<a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>とどのように連携しているかについて紹介しています。
+    これはコミュニティ主導の継続的な取り組みであり、ご意見や協力を踏まえてこのサイトの<a href="download/">製品</a>を随時改良・更新しています。詳しくは、<a href="next/">次に取り組むこと</a>のページをご覧ください。ここでは、<a href="https://www.gensc.org/">Genomic Standards Consortium (GSC)</a>や<a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>とどのように連携しているかについて紹介しています。
 </div>
 
 ## なぜFAIR eDNAが必要か？
