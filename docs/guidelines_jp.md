@@ -333,4 +333,3 @@ A. いいえ。現時点でFAIRe-fierはメタバーコーディングおよび�
 - [The OBIS manual](https://manual.obis.org/)
 - [GBIF Metabarcoding Data Toolkit](https://mdt.gbif.org/)
 
-もし他にも翻訳してほしい箇所や、MarkdownやHTMLの細かな調整が必要であれば教えてください。
