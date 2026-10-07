@@ -1,6 +1,10 @@
 # FAIRe ニュース＆更新情報
 FAIRe ガイドラインの改善を継続的に行っています。最新の更新、新しい展開、進行中の活動はこのページで随時ご確認ください！
 
+### 2026-10-07 : FAIReガイドラインの日本語版 ###
+FAIRe ガイドラインの日本語翻訳を公開しました。画面右上の言語切替メニューから日本語版をご覧ください。
+Translation assisted by chatbot.app.
+
 ### 2026-06-15 : FAIReチェックリスト日本語版 ###
 日本のeDNAコミュニティからの要望に応え、FAIReメタデータチェックリストの日本語訳を作成しました。翻訳の取りまとめを行ってくださった中村正敏様（IDEA Consultants, Inc.）に心より感謝いたします。日本語版は以下からダウンロードできます： [ここをクリック](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx)。
 
