@@ -1,5 +1,3 @@
-Sure — I’ll translate that section into Japanese and preserve the original Markdown formatting, links, lists, tables, and image captions. Here is the translated content ready to drop into your /ja/ page:
-
 # FAIRe ニュース＆更新情報
 FAIRe ガイドラインの改善を継続的に行っています。最新の更新、新しい展開、進行中の活動はこのページで随時ご確認ください！
 
