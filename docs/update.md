@@ -1,6 +1,9 @@
 # FAIRe News & Updates
 We are continuously working to enhance the FAIRe guidelines. Check this page regularly to see the latest updates, new developments, and ongoing activities!
 
+### 2026-10-07 : Japanese translation of the FAIRe guidelines ###
+A Japanese translation of the FAIRe guidelines is now available. Use the language switcher at the top-right of the site to view the Japanese version. Translation assisted by chatbot.app.
+
 ### 2026-06-15 : Japanese translation of the FAIRe checklist ###
 In response to requests from the Japanese eDNA community, we have developed a Japanese translation of the FAIRe Metadata Checklist. We gratefully acknowledge Mr. Masatoshi Nakamura (IDEA Consultants, Inc.) for leading the translation effort. Download the Japanese version [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx). 
 
