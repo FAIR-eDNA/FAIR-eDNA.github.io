@@ -1,5 +1,5 @@
 ## FAIR eDNA（FAIRe）ガイドライン
-このセクションでは、さまざまなデータコンポーネントとフォーマットを概説し、包括的なFAIR eDNA（FAIRe）メタデータチェックリスト (v1.0.2)（ダウンロードは [こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2.xlsx))(/checklist/FAIRe_checklist_v1.0.xlsx)）およびデータ整形プロセスを案内するスクリプトやツールを提示します。
+このセクションでは、さまざまなデータコンポーネントとフォーマットを概説し、包括的なFAIR eDNA（FAIRe）メタデータチェックリスト (ダウンロードは [こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2.xlsx)）およびデータ整形プロセスを案内するスクリプトやツールを提示します。
 
 <div align="center">
     <img src="/assets/images/Figure2_FAIRe_practice_flowchart.jpg" alt="Figure 2. FAIRe practice flowchart" width="95%">
