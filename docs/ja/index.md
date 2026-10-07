@@ -7,6 +7,7 @@
 <div style="border: 1px solid black; padding: 10px; font-size: 18px;">
     これはコミュニティ主導の継続的な取り組みであり、ご意見や協力を踏まえてこのサイトの<a href="https://fair-edna.github.io/download.html">製品</a>を随時改良・更新しています。詳しくは、<a href="https://fair-edna.github.io/next.html">次に取り組むこと</a>のページをご覧ください。ここでは、<a href="https://www.gensc.org/">Genomic Standards Consortium (GSC)</a>や<a href="https://www.tdwg.org/">Biodiversity Information Standards (TDWG)</a>とどのように連携しているかについて紹介しています。
 </div>
+
 ## なぜFAIR eDNAが必要か？
 環境DNA（eDNA）を用いた種検出手法の成功は、生物多様性モニタリングや分布マッピングに革命をもたらしました。定量PCRなどのターゲット型eDNA増幅法は種の分布理解を深め、メタバーコーディングに基づく手法はこれまでにない規模と分類学的解像度での生物多様性評価を可能にします。しかし、eDNAデータセットはしばしばリポジトリに散在し、フォーマットが統一されていなかったり、アクセス制限が異なったり、メタデータが不十分であるため、相互運用性や再利用性、全体的な影響力が制限されています。eDNAデータにFAIR（Findable, Accessible, Interoperable, Reusable：検索可能、アクセス可能、相互運用可能、再利用可能）データ実践を採用することは、生物多様性および個々の種のモニタリングを変革し、広域的なデータ駆動型の生物多様性管理を支援します。FAIRの実践はeDNAコミュニティではまだ十分に発展しておらず、その一因として、[Darwin Core (DwC)](https://dwc.tdwg.org/) や [Minimum Information about any (x) Sequence (MIxS)](https://genomicsstandardsconsortium.github.io/mixs/) のような既存語彙をeDNA固有のニーズやワークフローに適応させる際のギャップが挙げられます。
 
