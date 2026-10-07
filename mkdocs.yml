@@ -1,5 +1,6 @@
 site_name: FAIR eDNA
 site_url: https://fair-edna.github.io/
+
 nav:
   - Home: index.md
   - Guidelines: guidelines.md
@@ -7,7 +8,7 @@ nav:
   - Download: download.md
   - News & Updates: update.md
   - Working group: workinggroup.md
-  - How to contribute: contact.md  
+  - How to contribute: contact.md
   - How to cite: citation.md
 
 theme:
@@ -15,6 +16,7 @@ theme:
   custom_dir: overrides
   logo: assets/images/ednafair_icon.svg
   favicon: assets/images/ednafair_icon.svg
+
   palette:
     # Palette toggle for automatic mode
     - media: "(prefers-color-scheme)"
@@ -23,14 +25,16 @@ theme:
       toggle:
         icon: material/brightness-auto
         name: Switch to light mode
+
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
-      scheme: default 
+      scheme: default
       primary: teal
       accent: green
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
+
     # Palette toggle for dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
@@ -39,11 +43,39 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to system preference
+
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - toc.integrate
     - navigation.top
+
 plugins:
+  - i18n:
+      docs_structure: folder
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+
+        - locale: ja
+          name: 日本語
+          build: true
+
+          nav_translations:
+            Home: ホーム
+            Guidelines: ガイドライン
+            Our next steps: 今後の取り組み
+            Download: ダウンロード
+            News & Updates: ニュース・更新情報
+            Working group: ワーキンググループ
+            How to contribute: 貢献するには
+            How to cite: 引用方法
+
   - offline
   - search
