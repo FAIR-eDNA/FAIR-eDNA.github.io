@@ -72,17 +72,4 @@ plugins:
             How to cite: 引用方法
 
   - offline
-
-  - search:
-      lang:
-        - en
-        - ja
-
-extra:
-  alternate:
-    - name: English
-      link: /
-      lang: en
-    - name: 日本語
-      link: /ja/
-      lang: ja
+  - search
