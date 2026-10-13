@@ -2,7 +2,7 @@
 FAIReメタデータチェックリストの最新版（v1.0.2、2025-07-02公開）はExcel形式で[こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2.xlsx)から入手できます。  
 過去のバージョンおよび変更履歴は[こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/tree/main)で確認できます。
 
-日本のeDNAコミュニティからの要望に応じて、FAIReメタデータチェックリストの日本語訳を作成しました。翻訳作業を主導してくださった中村正俊氏（株式会社アイディーエーコンサルタンツ）に深く感謝します。日本語版は[こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx)からダウンロードできます。日本語版FAIReメタデータチェックリストのダウンロードは[こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx)。
+日本のeDNAコミュニティからの要望を受け、FAIReメタデータチェックリストの日本語訳を中村匡聡（いであ株式会社）氏が作成してくださいました。日本語版のチェックリストは[こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx)からダウンロードできます。
 
 ## FAIReテンプレート
 FAIRe FULLテンプレート（v1.0.2）のダウンロードは[こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_FULLtemplate.xlsx)をクリックしてください。
