@@ -3,10 +3,10 @@ FAIRe ガイドラインの改善を継続的に行っています。最新の�
 
 ### 2026-10-07 : FAIReガイドラインの日本語版 ###
 FAIRe ガイドラインの日本語翻訳を公開しました。画面右上の言語切替メニューから日本語版をご覧ください。
-Translation assisted by chatbot.app.
+備考：本ガイドラインの内容はAIにより日本語に翻訳されました。現時点では翻訳の全内容を人的に確認しておりません。現在、日本環境DNA学会と協力して、誤訳や表現の改善に取り組んでいます。
 
 ### 2026-06-15 : FAIReチェックリスト日本語版 ###
-日本のeDNAコミュニティからの要望に応え、FAIReメタデータチェックリストの日本語訳を作成しました。翻訳の取りまとめを行ってくださった中村正敏様（IDEA Consultants, Inc.）に心より感謝いたします。日本語版は以下からダウンロードできます： [ここをクリック](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx)。
+日本のeDNAコミュニティからの要望に応え、FAIReメタデータチェックリストの日本語訳を作成しました。翻訳の取りまとめを行ってくださった中村匡聡様（いであ株式会社）に心より感謝いたします。日本語版は以下からダウンロードできます： [https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx)。
 
 ### 2025-11-13 : TDWG/GSC の協働 ###
 2025年初頭に、TDWGおよびGSCのeDNAタスクグループを、既存メンバーと新たなFAIReメンバーで発足させました。我々の目標は、TDWGおよびGSCの枠組みの下で Darwin Core（DwC）および MIxS における eDNA チェックリストを開発することです。  
