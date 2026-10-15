@@ -1,0 +1,1208 @@
+
+<!doctype html>
+<html lang="ja" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://fair-edna.github.io/ja/guidelines.html">
+      
+      
+        <link rel="prev" href="index.html">
+      
+      
+        <link rel="next" href="next.html">
+      
+      
+      <link rel="icon" href="../assets/images/ednafair_icon.svg">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>ガイドライン - FAIR eDNA</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+        <script src="https://unpkg.com/iframe-worker/shim"></script>
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ResearchProject",
+    "name": "FAIR eDNA",
+    "alternateName": ["FAIRe", "FAIR-eDNA", "FAIRe eDNA"],
+    "description": "Comprehensive FAIR metadata checklist for environmental DNA (eDNA) studies, integrating Darwin Core and MIxS standards for biodiversity monitoring.",
+    "url": "https://fair-edna.github.io/",
+    "keywords": ["FAIRe", "eDNA", "environmental DNA", "FAIR data", "biodiversity", "metabarcoding", "Darwin Core", "MIxS", "qPCR", "species detection"],
+    "sameAs": [
+      "https://github.com/FAIR-eDNA"
+    ]
+  }
+  </script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="green">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#fair-ednafaire" class="md-skip">
+          コンテンツにスキップ
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="ヘッダー">
+    <a href="index.html" title="FAIR eDNA" class="md-header__button md-logo" aria-label="FAIR eDNA" data-md-component="logo">
+      
+  <img src="../assets/images/ednafair_icon.svg" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            FAIR eDNA
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ガイドライン
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="green"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="green"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="green"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+      <div class="md-header__option">
+  <div class="md-select">
+    
+    <button class="md-header__button md-icon" aria-label="言語切り替え">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m12.87 15.07-2.54-2.51.03-.03A17.5 17.5 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11zM18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2zm-2.62 7 1.62-4.33L19.12 17z"/></svg>
+    </button>
+    <div class="md-select__inner">
+      <ul class="md-select__list">
+        
+          <li class="md-select__item">
+            <a href="../guidelines.html" hreflang="en" class="md-select__link">
+              English
+            </a>
+          </li>
+        
+          <li class="md-select__item">
+            <a href="guidelines.html" hreflang="ja" class="md-select__link">
+              日本語
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</div>
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="タブ" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="index.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ホーム
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="guidelines.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ガイドライン
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="next.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  今後の取り組み
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="download.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ダウンロード
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="update.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ニュース・更新情報
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="workinggroup.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  ワーキンググループ
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="contact.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  貢献するには
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="citation.html" class="md-tabs__link">
+        
+  
+  
+    
+  
+  引用方法
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="ナビゲーション" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="index.html" title="FAIR eDNA" class="md-nav__button md-logo" aria-label="FAIR eDNA" data-md-component="logo">
+      
+  <img src="../assets/images/ednafair_icon.svg" alt="logo">
+
+    </a>
+    FAIR eDNA
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="index.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ホーム
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    ガイドライン
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="guidelines.html" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    ガイドライン
+    
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="目次">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目次
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#fair-ednafaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIR eDNA（FAIRe）ガイドライン
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      データフォーマットとコンポーネント
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      一貫した識別子とファイル命名
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#faire" class="md-nav__link">
+    <span class="md-ellipsis">
+      FAIReメタデータチェックリスト
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="FAIReメタデータチェックリスト">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_3" class="md-nav__link">
+    <span class="md-ellipsis">
+      語彙の基礎
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_4" class="md-nav__link">
+    <span class="md-ellipsis">
+      用語の指定使用と制御語彙
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#_5" class="md-nav__link">
+    <span class="md-ellipsis">
+      欠損値
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_6" class="md-nav__link">
+    <span class="md-ellipsis">
+      データ提出／公開
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_7" class="md-nav__link">
+    <span class="md-ellipsis">
+      利用可能なスクリプトとツール
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_8" class="md-nav__link">
+    <span class="md-ellipsis">
+      サンプルデータセット
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_9" class="md-nav__link">
+    <span class="md-ellipsis">
+      よくある質問
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#_10" class="md-nav__link">
+    <span class="md-ellipsis">
+      参考リソース
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="next.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    今後の取り組み
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="download.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ダウンロード
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="update.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ニュース・更新情報
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="workinggroup.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    ワーキンググループ
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="contact.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    貢献するには
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="citation.html" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    引用方法
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>ガイドライン</h1>
+
+<h2 id="fair-ednafaire">FAIR eDNA（FAIRe）ガイドライン</h2>
+<p>このセクションでは、さまざまなデータコンポーネントとフォーマットを概説し、包括的なFAIR eDNA（FAIRe）メタデータチェックリスト (ダウンロードは <a href="https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2.xlsx">こちら</a>）およびデータ整形プロセスを案内するスクリプトやツールを提示します。</p>
+<div align="center">
+    <img src="/assets/images/Figure2_FAIRe_practice_flowchart.jpg" alt="Figure 2. FAIRe practice flowchart" width="95%">
+     <figcaption style="margin-top: 0em; text-align: left; width: 95%;">Figure 2. FAIRe practice flowchart</figcaption>
+</div>
+
+<h2 id="_1">データフォーマットとコンポーネント</h2>
+<p>下の図とリストは、関連するeDNAデータコンポーネント、およびそれらの内容と目的を示しています。提案するデータ構造では、DNA配列データ（すなわちFASTQの生データおよび任意で代表配列のFASTA）を除くすべてのデータコンポーネントは、表形式（タブular形式）で整理されます。これらは、スプレッドシートワークブックの個別ワークシート、文字区切り値テキストファイル（タブまたはカンマ）、またはそれらの組み合わせとして保存できます（提供されている各種サンプルデータセット参照）。これにより、データは概念的に別モジュールへ分割され、<code>project_id</code>、<code>sample_name</code>、<code>assay_name</code> のような一意識別子でリンクできるほか、利用者のニーズやデータ整形の好みに対応できます。</p>
+<div align="center">
+    <img src="/assets/images/datatypes_main.jpg" alt="Data types" width="95%">
+    <figcaption style="margin-top: 0em; text-align: left; width: 95%;">Figure 3. Data components and their recommended structures that promote FAIR eDNA</figcaption>
+</div>
+
+<ol>
+<li>
+<p><strong>Project metadata</strong>（projectMetadata）</p>
+<ul>
+<li><strong>内容</strong>: プロジェクト全体およびデータセット全体に適用される情報。プロジェクト名、データセットの由来となる参照（例：研究の書誌参照、公開されたデータのDOI）、およびPCR、シーケンシング、バイオインフォマティクス工程を含むワークフローのメタデータを含みます。</li>
+<li><strong>目的</strong>: 全サンプルに共通するプロジェクト情報や手法を記述し、サンプルメタデータに同じ項目を繰り返し記載する必要を避けること。バイオインフォマティクスの品質フィルタリングパラメータや閾値などに関する情報は、データ再利用者がデータ品質が特定の再利用要件を満たすかどうかを評価するのに役立ちます。増幅解析、バイオインフォマティクスワークフロー、品質保証レベルの最小要件は研究や用途により異なるため、これら情報の標準化は特に重要です。</li>
+<li><strong>注</strong>: 1つのプロジェクト内で複数のプライマーセットを使用して複数の分類群を対象とすることがよくあります。この場合、アッセイ固有のワークフローと出力を記録するために図5の形式に従います。</li>
+</ul>
+</li>
+<li>
+<p><strong>Sample metadata</strong>（sampleMetadata）</p>
+<ul>
+<li><strong>内容</strong>: 各サンプルに関する情報（プロジェクトレベルで記載できないもの）、採取日、位置情報、手法、環境変数（例：温度、水深）など。</li>
+<li><strong>目的</strong>: 採取からバイオインフォマティクスまでのワークフローに沿ったサンプル固有の情報を記録すること。</li>
+</ul>
+</li>
+<li>
+<p><strong>Experiment/run metadata</strong>（experimentRunMetadata）</p>
+<ul>
+<li><strong>内容</strong>: PCR、ライブラリ調整、シーケンシングワークフローに関するサンプル固有の情報。</li>
+<li><strong>目的</strong>: PCR以降の、各サンプルおよびアッセイに特有なワークフローを記録すること。</li>
+<li><strong>注</strong>: 各エントリ（行）は一意のライブラリID（<code>lib_id</code>）およびマルチプレックス識別子（MIDs）（<code>mid_forward</code>、<code>mid_reverse</code>）を持ちます。</li>
+</ul>
+</li>
+<li>
+<p><strong>PCR standard data</strong>（stdData）</p>
+<ul>
+<li><strong>内容</strong>: 初期入力量、Ct/Cq値、標準曲線パラメータ（例：効率、R2）など、PCR標準に関する詳細情報。</li>
+<li><strong>目的</strong>: 再現性を向上させ、データ再利用者が独自の手法で推定コピー数を再生成できるようにすること。PCR標準データと増幅データ内の<code>assay_name</code>および<code>pcr_plate_id</code>のエントリにより、標準とeDNAサンプルをリンクできます。</li>
+</ul>
+</li>
+<li>
+<p><strong>eLow Quant data</strong>（eLowQuantData）</p>
+<ul>
+<li><strong>内容</strong>: 該当する場合、PCR標準に対するeLow Quant二項法の出力（Lesperance et al., 2021参照）。</li>
+<li><strong>目的</strong>: 再現性を向上させ、データ再利用者が独自の方法で推定コピー数を再生成できるようにすること。</li>
+</ul>
+</li>
+<li>
+<p><strong>Targeted assay amplification data</strong>（ampData）</p>
+<ul>
+<li><strong>内容</strong>: eDNAサンプルに対して実行された各PCRテクニカルレプリケートの生の増幅データ、標準曲線に基づく推定コピー数（該当する場合）、および各生物学的レプリケート（フィールドサンプル）における標的分類群の検出状況。</li>
+<li><strong>目的</strong>: 各テクニカルレプリケートのCt/Cq値は、上記標準情報と組み合わせることで将来の研究で生の増幅データを濃度や検出状態に再変換することを可能にします。生物学的レプリケートレベルでの検出/非検出記録は、サンプルメタデータと組み合わせて将来の研究での分類群出現記録の迅速な再利用を可能にします。また、他の手法で得られた生物多様性データとの整合性を標準化し、それによって集合的なデータと基礎研究を幅広い利用者に発見可能かつ再利用可能にします。</li>
+<li><strong>注</strong>: <code>quantificationCycle</code>（Ct/Cq値）には増幅が起きなかったことを示すために「NA」（ゼロではない）を使用してください。ゼロは非常に高いDNA濃度（ターゲットDNAであるかどうか不明）を意味する可能性があり、標準曲線の範囲外で定量不能であると誤解されるおそれがあります。</li>
+</ul>
+</li>
+<li>
+<p><strong>Raw DNA sequences</strong></p>
+<ul>
+<li><strong>内容</strong>: 各サンプルごとにデメルチプレックス（demultiplex）されたFASTQ形式のDNAシーケンス。プライマー、アダプター、MIDは除去済みであること。</li>
+<li><strong>目的</strong>: データ再利用者が独自のアルゴリズムと閾値で品質フィルタリング、デノイジング、分類学的割り当てをやり直すことを可能にするため。異なるまたは改良されたパイプライン／アルゴリズムを用いた再解析を可能にし、研究の再現性を高めます。</li>
+</ul>
+</li>
+<li>
+<p><strong>非キュレーション済みASV/OTUテーブル</strong>（otuRaw）（任意）</p>
+<ul>
+<li><strong>内容</strong>: バイオインフォマティクスパイプラインで生成された初期のASV/OTUテーブルで、すべてのASV/OTUの絶対配列リード数（汚染や非ターゲット分類群、割り当て不能ASV/OTUを含む）を全サンプル（コントロール含む）にわたって含みます。この段階で各ASV/OTUには一意の<code>seq_id</code>が付与されます。</li>
+<li><strong>目的</strong>: すべてのOTU/ASVのリード数に関する客観的情報を伝え、必要に応じてデータ再利用者がデータキュレーション手順を修正または再実行できるようにすること。コントロールサンプルや疑わしい汚染物質、非ターゲット分類群を含めることで、複数研究にわたる共通汚染配列やその発生源の調査、およびそれらを最小化する方法の特定に寄与します。</li>
+<li><strong>注</strong>: ASV/OTUテーブルの列名は <code>samp_name</code> または <code>lib_id</code> のいずれかとし、experiment/run metadataとASV/OTUテーブルの間に明確なリンクが保たれるようにしてください。</li>
+<li><strong>注</strong>: “raw”と呼ばれるものの、最小長やリード数、エラー率、OTUクラスタリングに基づくフィルタリングのような一定の圧縮、品質フィルタ、キュレーションが既に適用されている場合があります。非キュレーション済みASV/OTUテーブルに対して実行されたデータキュレーションの程度は使用したバイオインフォマティクスパイプラインによって研究間で異なるため、これはproject metadata内の<code>otu_raw_description</code>で説明する必要があります。</li>
+</ul>
+</li>
+<li>
+<p><strong>キュレーション済みASV/OTUテーブル</strong>（otuFinal）</p>
+<ul>
+<li><strong>内容</strong>: デノイジング（カスタムまたはLULUキュレーション）、コントロールサンプルの除去、疑わしい汚染物や非ターゲット分類群の除去など、さまざまなデータキュレーション工程の結果生じたASV/OTUテーブル。理想的には、関連論文で報告された最終的な（例えば生態学的）解析に用いられたテーブルと同一またはほぼ一致するべきです。分類学的割り当てがないASV/OTUも解析に関連があればotuFinalに残してください。</li>
+<li><strong>目的</strong>: 元の（生態学的）解析の再現性と、キュレーションされた／クリーンなデータの一般的な再利用を促進すること。他の種類の生物多様性データとの相互運用性を高め、一般的な生物多様性データベースへの組み込みを促進し、データと基礎研究をより幅広い利用者に発見可能かつ再利用可能にします。</li>
+<li><strong>注</strong>: ASV/OTUテーブルの列名は <code>samp_name</code> または <code>lib_id</code> のいずれかとし、experiment/run metadataとの明確なリンクを維持してください。</li>
+<li><strong>注</strong>: 研究によっては、同一分類群に割り当てられた複数のASV/OTUを集約してリード数を合算する場合がありますが、我々はデータ提供者に対して元の非集約形式のASV/OTUテーブルを提出することを強く推奨します。各ASV/OTUを個別のリード数と配列で保持することで、相互運用性を高め、不完全あるいは不正確な参照データベースによる誤った分類学的注釈に起因する有益なASV/OTUの喪失を防げます。</li>
+<li><strong>注</strong>: キュレーションを経て作成されたotuFinalの説明は、project metadataの<code>otu_final_description</code>に記載してください。</li>
+</ul>
+</li>
+<li>
+<p><strong>非キュレーション済み配列／分類群テーブル</strong>（taxaRaw）（任意）</p>
+<ul>
+<li><strong>内容</strong>: キュレーション済みのSequence–Taxaテーブル（下記）に含まれる内容に加え、キュレーション済みASV/OTUテーブルから除外されたASV/OTU（例：非ターゲット分類群、汚染、ポジティブコントロール配列、分類学的ヒットがないASV）を含みます。また、単一のASV/OTUが複数の分類群に割り当てられている場合、それぞれの割り当て分類群について複数行を含めることがあります。</li>
+<li><strong>目的</strong>: キュレーションで除外されたASV、OTU、分類群へのアクセスを提供することでデータ透明性を高め、データ再利用者が特定のデータキュレーション手順を再評価・再実行できるようにすること。</li>
+<li><strong>注</strong>: 単一ASV/OTUに最小共通祖先（LCA）を割り当てる際は、割り当てられた各分類群の情報を記録するためにASV/OTUごとに複数行を生成してください。ユーザーは例えば97%の類似度閾値を適用し、この範囲に含まれるすべての参照配列、あるいはその代表サブサンプルを出力に含めることができます。</li>
+<li><strong>注</strong>: 図3の例（非キュレーション済みSequence/TaxaテーブルのASV1）を参照してください。</li>
+</ul>
+</li>
+<li>
+<p><strong>キュレーション済み配列／分類群テーブル</strong>（taxaFinal）</p>
+<ul>
+<li><strong>内容</strong>: キュレーション済みASV/OTUテーブルにリストされた各<code>seq_id</code>のDNA配列。分類群が割り当てられている場合は、割り当てられた分類学的情報および割り当ての品質指標（例：一致率%、クエリ被覆率%）を含めます。単一ASV/OTUに複数の分類群が割り当てられる場合は、LCAを割り当て分類群として使用してください。</li>
+<li><strong>目的</strong>: データ再利用者が推定された分類学の特異性と正確性を評価し、異なるまたは更新された参照配列データベースを用いて分類学的再注釈を行えるようにすること。</li>
+<li><strong>注</strong>: 分類学的割り当てがないASV/OTUでも、研究の範囲に関連がある場合はtaxaFinalに含めますが、分類学情報（例：<code>scientificName</code>）は空にしてください。</li>
+</ul>
+</li>
+</ol>
+<div align="center">
+    <img src="/assets/images/Figure4_datatypes_noncurated_files.jpg" alt="Optional intermediate files" width="95%">
+    <figcaption style="margin-top: 0em; text-align: left; width: 95%;">Figure 4. Optional intermediate file formats for metabarcoding outputs</figcaption>
+</div>
+
+<div align="center">
+    <img src="/assets/images/datatypes_multiassay.jpg" alt="Multiple assay" width="95%">
+    <figcaption style="margin-top: 0em; text-align: left; width: 95%;">Figure 5. Metadata formats for a project applying multiple assays</figcaption>
+</div>
+
+<h2 id="_2">一貫した識別子とファイル命名</h2>
+<p>機械可読性とデジタルリソースへの永続的な参照を確保するために、データセット全体で一貫した永続的なサンプルおよび配列識別子（<code>samp_name</code>、<code>lib_id</code>、<code>seq_run_id</code>）を適用することが重要です（Damerow et al., 2021; McMurry et al., 2017）。同様に、各ファイルは<code>project_id</code>、<code>assay_name</code>、<code>seq_run_id</code>で構成される明確かつ一意な名前を持つ必要があります（表2およびサンプルデータ参照）。例えば、キュレーション済みASV/OTUテーブルは otuFinal_<code>project_id</code><em><code>assay_name</code></em><code>seq_run_id</code>（例：otuFinal_gbr2022_MiFish_lib20230922.csv）と命名します。複数のデータコンポーネントを単一のスプレッドシートワークブックに格納する場合、ファイル名は <code>project_id</code>（例：gbr2022.xlsx）とし、この場合各ワークシート名は表2の形式に従うが、メインファイル名に既に<code>project_id</code>が含まれるためワークシート名には <code>project_id</code> を含めない（例：otuFinal_MiFish_lib20230922）。</p>
+<p>Table 1. 各データタイプの標準化された名称。例では <code>project_id</code> = gbr2022、<code>samp_name</code> = S1、<code>assay_name</code> = eSERUS および MiFish（ターゲット法およびメタバーコーディング法）、<code>seq_run_id</code> = run20230922</p>
+<table>
+  <thead style="background-color: grey;">
+    <tr>
+      <th>Data type</th>
+      <th>Name format</th>
+      <th>Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Project metadata</td>
+      <td>projectMetadata_<code>project_id</code></td>
+      <td>projectMetadata_gbr2022.csv</td>
+    </tr>
+    <tr>
+      <td>Sample metadata</td>
+      <td>sampleMetadata_<code>project_id</code></td>
+      <td>sampleMetadata_gbr2022.csv</td>
+    </tr>
+    <tr>
+      <td>PCR standard data</td>
+      <td>stdData_<code>project_id</code></td>
+      <td>stdData_gbr2022.csv</td>
+    </tr>
+    <tr>
+      <td>eLow Quant data</td>
+      <td>eLowQuantData_<code>project_id</code></td>
+      <td>eLowQuantData_gbr2022.csv</td>
+    </tr>
+    <tr>
+      <td>Amplification data</td>
+      <td>ampData_<code>project_id</code>_<code>assay_name</code></td>
+      <td>ampData_gbr2022_eSERUS.csv</td>
+    </tr>
+    <tr>
+      <td>Experiment/run metadata</td>
+      <td>experimentRunMetadata_<code>project_id</code></td>
+      <td>experimentRunMetadata_gbr2022.csv</td>
+    </tr>
+    <tr>
+      <td>Non-curated ASV/OTU table</td>
+      <td>otuRaw_<code>project_id</code>_<code>assay_name</code>_<code>seq_run_id</code></td>
+      <td>otuRaw_gbr2022_MiFish_run20230922.csv</td>
+    </tr>
+    <tr>
+      <td>Curated ASV/OTU table</td>
+      <td>otuFinal_<code>project_id</code>_<code>assay_name</code>_<code>seq_run_id</code></td>
+      <td>otuFinal_gbr2022_MiFish_run20230922.csv</td>
+    </tr>
+    <tr>
+      <td>Non-curated Sequence/Taxa table</td>
+      <td>taxaRaw_<code>project_id</code>_<code>assay_name</code>_<code>seq_run_id</code></td>
+      <td>taxaRaw_gbr2022_MiFish_run20230922.csv</td>
+    </tr>
+    <tr>
+      <td>Curated Sequence/Taxa table</td>
+      <td>taxaFinal_<code>project_id</code>_<code>assay_name</code>_<code>seq_run_id</code></td>
+      <td>taxaFinal_gbr2022_MiFish_run20230922.csv</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="faire">FAIReメタデータチェックリスト</h2>
+<p>我々はFAIR eDNA（FAIRe）メタデータチェックリストを作成し、異なるデータコンポーネントと方法論を記述するための包括的な語彙を提供しています。チェックリストの最新版、完全テンプレート、および変更履歴付きの過去バージョンは <a href="https://fair-edna.github.io/download.html">Downloadタブ</a> から入手できます。詳細なドキュメンテーションは、研究の透明性と再現性を向上させ、特定の再利用ケースに対するデータ適合性の評価を可能にするために重要です。FAIReチェックリストは合計337のデータ項目（必須38、強く推奨51、推奨128、任意120）で構成され、ワークフローセクション（例：サンプル採取、PCR、バイオインフォマティクス）に整理されています。多くの必須・強く推奨・推奨項目はプロジェクトの通常の進行中に自然に生成されるため、最低報告要件を満たすデータは容易に用意・公開リポジトリへ提出できます。</p>
+<h3 id="_3">語彙の基礎</h3>
+<p>FAIReメタデータチェックリストは、MIxS、DwC、およびDwCへのDNA由来データ拡張など既存のデータ標準から用語を取り入れて構成されています。MIxSには、eDNAデータに関連する複数のチェックリストや拡張（MIMARKS、MIMS、環境別拡張：水、堆積物、土壌、空気、ホスト関連、共生体関連など）が含まれます。これらの標準はeDNAデータの包括的なカバーを確保するためにレビューされ、FAIReチェックリストに取り込まれています。さらに、MIQEガイドライン（Bustin et al., 2009）、単一種eDNAアッセイ開発と検証のチェックリスト（Thalinger et al., 2021）、およびMIEM（Minimum Information for eDNA and eRNA Metabarcoding）ガイドライン（Klymus et al., 2024）からの用語も取り入れています。既存標準からの各用語の出典とURIは、FAIReチェックリストの「source」および「URI」列に記載されています。必要に応じて、eDNAコミュニティによる解釈を容易にするために、用語名、説明、例を修正しています。eDNA手順とデータセットの多様な属性に対応し再利用適合性の評価を改善するために、合計158の新しい用語を提案しました。これらには、標的アッセイ検出ワークフローに関連する用語（例：<code>lod_method</code>、<code>std_seq</code>）、バイオインフォマティクスツールやフィルタリングパラメータ・カットオフ（例：<code>demux_tool</code>、<code>demux_max_mismatch</code>）、分類学的割当指標（例：<code>percent_match</code>）、および分類群スクリーニング手法（例：<code>screen_contam_method</code>、<code>screen_nontarget_method</code>）が含まれます。FAIReチェックリストは、MIxSサンプル拡張（Water、Soil、Sediment、Air、HostAssociated、MicrobialMatBiofilm、SymbiontAssociated）から抽出した、eDNAサンプルに関連する多様な環境変数も含みます。これらの変数は通常サンプリングイベント中に記録され、共有することで高度なモデリング手法などに役立ちます。
+FAIReチェックリストに適切な用語名がない場合、利用者は <a href="https://genomicsstandardsconsortium.github.io/mixs/">MIxS</a> や <a href="https://dwc.tdwg.org/terms/">DwC</a> といった既存標準で検索し、可能な限り標準化用語を使用してください。該当する用語が見つからない場合は、関連する表内で明確かつ簡潔な記述的名称を用いて新しい用語を追加できます。</p>
+<h3 id="_4">用語の指定使用と制御語彙</h3>
+<p>用語の標準化を高めるためにいくつかのアプローチを実装しています。第一に、既存標準の自由記述式の用語については制御語彙の使用を提案しています。例えば、<code>target_gene</code>の値はバーコーディングに用いられる28の遺伝子領域のリストから選択するようにします。これにより、COIの表記揺れ（CO1、COXI、COX1、Cytochrome oxidase I gene、Cytochrome c oxidase I など）や綴り誤りの入力を防ぎます。適切な値が語彙の指定値に見つからない場合は、“other:”に続けて自由記述で説明を入れることが可能です。第二に、数値変数の単位は可能な限り国際単位系（SI）に基づいて厳格に指定し、単位を含まない数値エントリのみを許可します。単位が明確な伝達に必要な場合は、測定値と測定単位の別々の用語を提供し、単位は制御語彙で制限します（例：数値は <code>samp_size</code>、単位は <code>samp_size_unit</code> で mL、L、mg、g、kg、cm2、m2、cm3、m3、other のような選択肢に限定）。第三に、いくつかのデータ用語のフォーマットは制限され、一般的に他の標準（DwC、MIxS）やデータインフラ（GBIF、OBIS、INSDC）に従います。例えば、<code>decimalLatitude</code> と <code>decimalLongitude</code> は必須用語であり、WGS84測地系の十進度（decimal degrees）でなければなりません。元のデータが他の形式（度分秒、UTM、WGS84以外の測地系）で記録されている場合は、<code>verbatimLatitude</code> と <code>verbatimLongitude</code> に格納しつつ、<code>decimalLatitude</code> と <code>decimalLongitude</code> も入力する必要があります。同様に、採取日時は <code>eventDate</code> に要約され、<a href="https://www.iso.org/iso-8601-date-and-time-format.html">ISO 8601形式</a> を利用し、UTCとの差を付記します（例："2008-01-23T19:23-06:00" はUTCより6時間遅いタイムゾーンを示す）。変換前の元の日時記録は <code>verbatimDate</code> および <code>verbatimTime</code> に保管してください。</p>
+<h3 id="_5">欠損値</h3>
+<p>情報が欠落する理由は様々で、歴史的に科学では欠損データを示すために多様な慣習が用いられてきました。さらに、座標情報は絶滅危惧種や先住民および地域コミュニティの文化的に重要なサイトを保護するために一般化または非公開にされる場合があります（Chapman, 2020; Chapman and Wieczorek, 2020; Frank et al., 2015, https://fnigc.ca/）。データを非公開または一般化した理由は、project metadata の <code>informationWithheld</code> および <code>dataGeneralization</code> の用語で説明してください。必須項目に値が欠落している場合は、<a href="https://www.insdc.org/submitting-standards/missing-value-reporting/">INSDC missing value controlled vocabulary</a> の形式に従って理由を記載する必要があります。非必須項目に対してもこのアプローチを適用することを推奨します。
+以下に、欠損値用語の完全なリスト（明確性のために階層構造を含む）を示します。説明文や追加理由は含めず、太字で示されたテキストのみを欠損値記述に使用してください。</p>
+<ul>
+<li><strong>not applicable: control sample</strong></li>
+<li><strong>not applicable: sample group</strong></li>
+<li><strong>not applicable</strong></li>
+<li><strong>missing: not collected: synthetic construct</strong></li>
+<li><strong>missing: not collected: lab stock</strong></li>
+<li><strong>missing: not collected: third party data</strong></li>
+<li><strong>missing: not collected</strong></li>
+<li><strong>missing: not provided: <a href="https://www.insdc.org/news/insdc-spatiotemporal-metadata-minimum-standards-update-03-03-2023/">data agreement established pre-2023</a></strong></li>
+<li><strong>missing: not provided</strong></li>
+<li><strong>missing: restricted access: endangered species</strong></li>
+<li><strong>missing: restricted access: human-identifiable</strong></li>
+<li><strong>missing: restricted access</strong></li>
+</ul>
+<h2 id="_6">データ提出／公開</h2>
+<p>eDNAデータセットを <a href="https://www.gbif.org/">GBIF</a>、<a href="https://obis.org/">OBIS</a>、<a href="https://www.insdc.org/">INSDC</a> のようなデータベースに公開することは、FAIRデータ実践を確実にするための重要なステップです。これらのプラットフォームは、オープンデータに基づく科学研究や意思決定のためのデータ検索性とアクセス性を提供し、APIや高度なウェブブラウザインターフェースを通じて利用可能にします。提出時にデータ検証手順を提供し、相互運用性を確保する追加の標準化を行います。これらのデータベースへの提出により永続的なサンプルおよび配列識別子が提供され、機械可読性とデータへの長期参照に不可欠です。例えばGBIFでは、データセットの著者や公開者に対し、引用追跡や利用状況の自動報告を可能にする一意のデータセットDOIが付与されます。
+すべてのeDNAデータコンポーネントが単一のデータベースで十分に扱えるわけではないため、適切なデータベースに分割して提出することを推奨します（図2参照）。
+以下は、主要なデータベース／インフラを通じてFAIR eDNAデータを共有する際の現行推奨実践です：</p>
+<ol>
+<li>生のDNAシーケンスデータとメタデータは <a href="https://www.insdc.org/">INSDC</a>（例：ENA、NCBI、DDBJ）などのヌクレオチドデータベースに提出します（ENA: https://www.ebi.ac.uk/ena/browser/home、NCBI: https://www.ncbi.nlm.nih.gov/、DDBJ: https://www.ddbj.nig.ac.jp/index-e.html）。例えばNCBIでは、プロジェクトメタデータをBioProject、サンプルメタデータをBioSample、生シーケンスをSequence Read Archive（SRA）経由で提出できます（Barrett et al., 2012）。これにより、メタデータとシーケンスデータがリンクされ、BioProjectやBioSampleレコードを検索することで完全なデータセットを取得できます。</li>
+<li>推定された分類群出現（配列とメタデータを伴う派生生物多様性データ）を <a href="https://www.gbif.org/">GBIF</a> や（海洋データの場合は）GBIFと <a href="https://obis.org/">OBIS</a> に公開します。GBIFおよびOBISは、Abarenkov et al. (2023) 共著ガイドで説明されているDNA由来データ拡張を含むDwC標準に従ったフォーマットを前提としています。データセットはDarwin Core Archive（DwC-A）に変換され、GBIFおよびOBISでインデックス化されます。</li>
+<li>残りのデータコンポーネント（例：ターゲットアッセイ研究の標準データ、メタバーコーディング研究の生ASV/OTUテーブル）をFAIReガイドラインに従って整形し、<a href="https://datadryad.org/stash">Dryad</a>、<a href="https://zenodo.org/">Zenodo</a>、<a href="https://figshare.com/">Figshare</a> などのオープンデータリポジトリや論文の補足資料としてアーカイブします。これにより上記ステップで扱われない生データの包括的な保管が保証されます。ただし、これらのリポジトリ内のデータは、eDNA、生物多様性、またはヌクレオチドデータの大規模プラットフォーム内での効果的な検索性や相互運用性を得るためのインデックス化が十分でない場合があることを認識することが重要です。</li>
+<li>プロトコルの公開およびバイオインフォマティクスや解析コードの共有も強く推奨されます（Jenkins et al., 2023; Teytelman et al., 2016）。<a href="https://www.protocols.io/">protocols.io</a> や <a href="https://workflowhub.eu/">WorkflowHub</a> のようなオープンソースプラットフォームでの公開が推奨されます。</li>
+<li>上記すべてのデータ、プロトコル、コードにはDOIを割り当て、それらをジャーナル記事内のデータアクセシビリティステートメントおよび <code>seq_archive</code>、<code>code_repo</code>、<code>associated_resource</code> のようなメタデータ項目に記載してください。</li>
+</ol>
+<p>ここで示したガイドラインにより、ヌクレオチドおよび生物多様性データベースが受け入れる形式と若干異なるフォーマットでデータを整形することがあります。そのため、軽微な再フォーマットが必要です。例えば、1つのプロジェクトで複数のアッセイが適用された場合の必要なデータ形式が該当します。GBIFは最近、<a href="https://www.gbif.org/metabarcoding">Metabarcoding Data Toolkit (MDT)</a> を立ち上げ、ここで提案した形式に類似した表形式のメタバーコーディングデータを再整形してGBIFおよびOBISに公開するユーザーフレンドリーなウェブアプリケーションを提供しています（Abarenkov et al. (2023) のガイドラインに準拠）。GBIF MDTは現在、各アッセイごとに別個の入力データセットを要求します（したがってprojectおよびsampleメタデータの情報が繰り返されます）が、FAIReチェックリストは複数アッセイのメタデータを組み合わせることを許容します（図5）。FAIReデータテンプレートをMDT向けに変換するRスクリプト（FAIRe2MDT）が開発されており、FAIReとGBIF基準間のデータ形式の違いを橋渡しします（下記「Available scripts and tools」参照）。これらのツールを組み合わせることで、eDNAデータのGBIF/OBISへの公開が効率化されます。全体として、生物多様性データプラットフォームはeDNAベースデータの受け入れと deposit の適合性を向上させるために強力な取り組みを進めています。</p>
+<h2 id="_7">利用可能なスクリプトとツール</h2>
+<p>以下のスクリプトとツールは、ガイドラインに従ったデータ整形を支援するために開発され、<a href="https://github.com/orgs/FAIR-eDNA/repositories">FAIRe GitHubリポジトリ</a> にて公開されています。</p>
+<ul>
+<li><strong>FAIRe-ator</strong>（FAIR eDNAテンプレート生成器）: このR関数は、アッセイタイプ（ターゲットまたはメタバーコーディング）、サンプルタイプ（例：水、堆積物）、適用するアッセイ数などのユーザー指定パラメータに基づいてデータテンプレートを作成します。さらに、プロジェクトIDやアッセイ名を入力することで正しいファイル名フォーマットを保証し、テンプレート内の <code>project_id</code> および <code>assay_name</code> 項目を事前入力できます。READMEおよびRコードは<a href="https://github.com/FAIR-eDNA/FAIRe-ator/blob/main">こちら</a>。</li>
+<li><strong>FAIRe-fier</strong>（FAIR eDNAメタデータ検証器）: このツールは <a href="https://shiny.csiro.au/FAIRe-fier/">ウェブインターフェース</a> で利用可能です。ソースコードは <a href="https://github.com/csiro/FAIRe-fier">GitHub</a> にあり、追加のメタデータと引用情報は <a href="http://hdl.handle.net/102.100.100/706519?index=1">http://hdl.handle.net/102.100.100/706519?index=1</a> にあります。スクリプト不要でメタデータを検証でき、プロジェクトおよびサンプルメタデータを入力後にツールへアップロードして検証を行えます。ツールは必須用語が完了しているか、未完了の場合はproject metadata内の <code>information_withheld</code> に有効な理由が提供されているかなどをチェックします。また、制御語彙のエントリや <code>eventDate</code>（ISO 8601形式）などの固定フォーマット用語が正しくフォーマットされているかも検証します。問題が見つかった場合は、警告とエラーメッセージを含む出力が提供され、修正箇所を示します。警告メッセージがない場合は整形済み出力が生成されます。</li>
+<li><strong>FAIRe2MDT</strong>: FAIRe形式のeDNAデータテンプレートをGBIFの <a href="https://mdt.gbif.org/">MDT</a> 向けに変換するRスクリプトです。Rコードは<a href="https://github.com/FAIR-eDNA/FAIRe2MDT/blob/main/FAIRe2MDT.R">こちら</a> からダウンロードできます。</li>
+</ul>
+<p><strong>コミュニティによって開発されたツール</strong>
+FAIRe実装者によって開発されたスクリプトやツールが増えていることを紹介できるのは喜ばしいことです。FAIReガイドラインを採用し、自動化ツールを構築するグループが増えています。現在、これらのツールはRおよびPythonの両方で新しいパッケージとして開発中です — News &amp; Updatesページの <a href="https://fair-edna.github.io/update.html#faire-coding">FAIRe Coding</a> で最新情報を確認してください。</p>
+<p><em>コミュニティでFAIRe関連ツールを開発している場合は、ぜひ <a href="https://fair-edna.github.io/contact.html">contact us</a> からご連絡ください — 連携や協力の機会を探したいです！</em></p>
+<ul>
+<li><a href="https://github.com/aomlomics/fairesheets"><strong>FAIReSheets</strong></a>（Google Sheets向けFAIReテンプレート生成器）: このPythonスクリプトはGoogle Sheets上にFAIRe eDNAデータテンプレートを作成します。FAIRe-atorのテンプレート作成を再現しますが、出力がMicrosoft ExcelファイルではなくGoogle Sheetsとなります。NOAA AOML 'OmicsのBayden Willms（<a href="https://orcid.org/0009-0003-2751-7317">ORCID</a> / <a href="https://github.com/baydenwillms">GitHub</a>）によって開発されました（https://github.com/aomlomics）。</li>
+<li><a href="https://github.com/Minderoo-OceanOmics-Centre-UWA/FAIRe2ENA"><strong>FAIRe2ENA</strong></a>: FAIReフォーマットのメタデータをENA（European Nucleotide Archive）XML形式に変換するツール。Philipp Bayer（<a href="https://orcid.org/0000-0001-8530-3067">ORCID</a> / <a href="https://github.com/philippbayer">GitHub</a>）によって Minderoo Foundation OceanOmics で開発されました。</li>
+<li><a href="https://github.com/MinderooFoundation/OceanOmics-amplicon-nf"><strong>Amplicon Nextflow</strong></a>: 品質管理、デノイジング、ASV/ZOTU生成、分類学的割当を行うバイオインフォマティクスパイプラインで、FAIReメタデータを入力および出力オプションとして使用できます。Adam Bennett（<a href="https://orcid.org/0009-0000-7038-2890">ORCID</a> / <a href="https://github.com/a4000">GitHub</a>）、Philipp Bayer（<a href="https://orcid.org/0000-0001-8530-3067">ORCID</a> / <a href="https://github.com/philippbayer">GitHub</a>）、Sebastian Rauschert（<a href="https://orcid.org/0000-0001-8359-6898">ORCID</a> / <a href="https://github.com/sebrauschert">GitHub</a>）によって Minderoo Foundation OceanOmics で開発されました。</li>
+</ul>
+<h2 id="_8">サンプルデータセット</h2>
+<p>さまざまなサンプルデータセットを用意しており、eDNA実務者がデータの整形と公開方法の参考にできます。</p>
+<p>以下はFAIReチェックリストv1.0に従って整形された、<strong>ターゲットアッセイ</strong>を用いるサンプルデータセットの一覧です。これらのデータセットは <a href="https://github.com/FAIR-eDNA/FAIR-eDNA.github.io/tree/main/docs/examples/targeted_assay">こちら</a> で入手できます。</p>
+<table>
+  <thead>
+    <tr>
+      <th style="background-color: grey;"><b>recordedBy</b></th>
+      <th>Mark Louie Lopez</th>
+      <th>Neha Acharya-Patel</th>
+      <th>Cecilia Villacorta-Rath</th>
+      <th>Lynsey Harper</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="background-color: grey;"><b>project_id</b></td>
+      <td>AEP_Fish_sedDNA</td>
+      <td>Rockfish_targeted_qPCR</td>
+      <td>EirwiniBurdekin</td>
+      <td>NECR534_GCN_single-species</td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>bibliographicCitation</b></td>
+      <td><a href="https://doi.org/10.1016/j.ecolind.2023.111014">DOI</a></td>
+      <td><a href="https://doi.org/10.1016/j.ecolind.2024.111830">DOI</a></td>
+      <td><a href="https://doi.org/10.1186/s12862-022-02009-6">DOI</a></td>
+      <td><a href="https://publications.naturalengland.org.uk/publication/5177901000163328">Link</a></td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>assay_type</b></td>
+      <td>targeted</td>
+      <td>targeted</td>
+      <td>targeted</td>
+      <td>targeted</td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>assay_name</b></td>
+      <td>eFish1 | eESLU1 | eCOAR7</td>
+      <td>eSEMA3 | eSEPA9 | eSERU5</td>
+      <td>EirwiniND4</td>
+      <td>TCCB</td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>env_medium</b></td>
+      <td>lake sediment [ENVO:00000546]</td>
+      <td>sea water [ENVO:00002149]</td>
+      <td>river water [ENVO:01000599]</td>
+      <td>liquid water [ENVO:00002006]</td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>Output file 1</b></td>
+      <td>AEP_Fish_sedDNA.xlsx</td>
+      <td>Rockfish_targeted_qPCR.xlsx</td>
+      <td>EirwiniBurdekin.xlsx</td>
+      <td>NECR534_GCN_single-species.XLSX</td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>Excel worksheet 1</b></td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+      <td>projectMetadata</td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>Excel worksheet 2</b></td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+      <td>sampleMetadata</td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>Excel worksheet 3</b></td>
+      <td>stdData</td>
+      <td>stdData</td>
+      <td>ampData</td>
+      <td>stdData</td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>Excel worksheet 4</b></td>
+      <td>eLowQuantData</td>
+      <td>eLowQuantData</td>
+      <td></td>
+      <td>ampData</td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>Excel worksheet 5</b></td>
+      <td>ampData_eFish1</td>
+      <td>ampData_eSERU5</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>Excel worksheet 6</b></td>
+      <td>ampData_eESLU1</td>
+      <td>ampData_eSEPA9</td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td style="background-color: grey;"><b>Excel worksheet 7</b></td>
+      <td>ampData_eCOAR7</td>
+      <td>ampData_eSEMA3</td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>以下はFAIReチェックリストv1.0に従って整形された、<strong>メタバーコーディングアッセイ</strong>を用いるサンプルデータセットの一覧です。これらは <a href="https://github.com/FAIR-eDNA/FAIR-eDNA.github.io/tree/main/docs/examples/metabarcoding">こちら</a> で入手できます。</p>
+<p>（メタバーコーディングの表は原文のままの表構成を維持しています。）</p>
+<h2 id="_9">よくある質問</h2>
+<p>Q. <strong>BLASTヒットがないASVはどうすべきですか？</strong>
+A. 分類学的ヒットがないASVも将来の再注釈（参照データベースが改善した場合）に有用です。これらは <strong>otuRaw</strong> と <strong>taxaRaw</strong> テーブルに分類学フィールド（例：<code>scientificName</code>）なしで含めてください。もしこれらのASVが研究の範囲内で生態学的解析に関連する場合は、<strong>otuFinal</strong> と <strong>taxaFinal</strong> にも保持してください。</p>
+<p>Q. <strong>FAIRe-fierはすべてのデータコンポーネントを検証できますか？</strong>
+A. いいえ。現時点でFAIRe-fierはメタバーコーディングおよびターゲットアッセイ研究の <strong>projectMetadata</strong> と <strong>sampleMetadata</strong> を検証しますが、他のコンポーネント（例：<strong>experimentRunMetadata</strong>、<strong>ampData</strong>）はまだ検証対象に含まれていません。これらの追加コンポーネントのサポートは将来のバージョンで計画されています。</p>
+<h2 id="_10">参考リソース</h2>
+<p>現在のFAIReフレームワークは以下のリソースを基礎として開発されました。</p>
+<ul>
+<li><a href="https://dwc.tdwg.org/terms/">Darwin Core Quick Reference Guide</a></li>
+<li><a href="https://genomicsstandardsconsortium.github.io/mixs/">Minimum Information about any (x) Sequence (MIxS) standard</a></li>
+<li><a href="https://rs.gbif.org/extension/gbif/1.0/dna_derived_data_2024-07-11.xml">Darwin Core extension of DNA derived data</a></li>
+<li><a href="https://doi.org/10.35035/doc-vf1a-nr22">Abarenkov et al., (2023) Publishing DNA-derived data through biodiversity data platforms, v1.3. Copenhagen: GBIF Secretariat.</a></li>
+<li><a href="https://manual.obis.org/">The OBIS manual</a></li>
+<li><a href="https://mdt.gbif.org/">GBIF Metabarcoding Data Toolkit</a></li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  ページトップへ戻る
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.tabs.sticky", "toc.integrate", "navigation.top"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u30b3\u30d4\u30fc\u3057\u307e\u3057\u305f", "clipboard.copy": "\u30af\u30ea\u30c3\u30d7\u30dc\u30fc\u30c9\u3078\u30b3\u30d4\u30fc", "search.result.more.one": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3082\u30461\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.more.other": "\u3053\u306e\u30da\u30fc\u30b8\u5185\u306b\u3042\u3068#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.none": "\u4f55\u3082\u898b\u3064\u304b\u308a\u307e\u305b\u3093\u3067\u3057\u305f", "search.result.one": "1\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.other": "#\u4ef6\u898b\u3064\u304b\u308a\u307e\u3057\u305f", "search.result.placeholder": "\u691c\u7d22\u30ad\u30fc\u30ef\u30fc\u30c9\u3092\u5165\u529b\u3057\u3066\u304f\u3060\u3055\u3044", "search.result.term.missing": "\u691c\u7d22\u306b\u542b\u307e\u308c\u306a\u3044", "select.version": "\u30d0\u30fc\u30b8\u30e7\u30f3\u5207\u308a\u66ff\u3048"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+    
+  </body>
+</html>
