@@ -1,5 +1,7 @@
 # Making eDNA FAIR
 
+備考：本ガイドラインの内容はAIにより日本語に翻訳されました。現時点では翻訳の全内容を人的に確認しておりません。現在、日本環境DNA学会と協力して、誤訳や表現の改善に取り組んでいます。
+
 <div align="center">
     <img src="/assets/images/projectlogo_whiteBG.jpg" alt="logo" width="70%">
 </div>
