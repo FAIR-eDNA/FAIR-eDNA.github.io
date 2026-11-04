@@ -11,9 +11,12 @@ FAIRe FULLテンプレート（v1.0.2）のダウンロードは[こちら](http
 
 ## コードとツール
 
-- **FAIRe-ator**（FAIR eDNAテンプレート生成器）：READMEおよびRコードは[こちら](https://github.com/FAIR-eDNA/FAIRe-ator/blob/main)からダウンロードできます。  
-- **FAIReSheets**（Google Sheets向けFAIReテンプレート生成器）：READMEおよびPythonコードは[こちら](https://github.com/aomlomics/fairesheets)からダウンロードできます。  
-- **FAIRe2MDT**：Rコードは[こちら](https://github.com/FAIR-eDNA/FAIRe2MDT/blob/main/FAIRe2MDT.R)からダウンロードできます。  
+- [**FAIRe-ator**](https://github.com/FAIR-eDNA/FAIRe-ator/blob/main)（FAIR eDNA template generator）  
+- [**FAIReSheets**](https://github.com/aomlomics/fairesheets)（Google Sheets向けFAIReテンプレート生成器）
+- [**FAIRe2NCBI**](https://github.com/aomlomics/FAIRe2NCBI)
+- [**FAIRe2ENA**](https://github.com/Minderoo-OceanOmics-Centre-UWA/FAIRe2ENA)
+- [**edna2obis**](https://github.com/aomlomics/edna2obis)
+- [**FAIRe2MDT**](https://github.com/FAIR-eDNA/FAIRe2MDT/blob/main/FAIRe2MDT.R)  
 - **FAIRe-fier**（FAIR eDNAメタデータ検証器）：このツールは[ウェブインターフェース](https://shiny.csiro.au/FAIRe-fier/)で利用可能です。ソースコードは[GitHub](https://github.com/csiro/FAIRe-fier)にあり、追加のメタデータおよび引用情報は[こちら](http://hdl.handle.net/102.100.100/706519?index=1)にあります。
 
 ## サンプルデータセット
