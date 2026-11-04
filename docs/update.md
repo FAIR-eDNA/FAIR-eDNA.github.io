@@ -37,15 +37,15 @@ These resources were originally developed for the [OBON FAIR eDNA Workshop](http
 - [FAIRe NOAA datasets](https://github.com/aomlomics/ODE_testdata/tree/main/noaa-sefsc-gu1901)
 
 ### Upcoming workshops ###
-- 2027-02 - [3rd Southern eDNA Conference](https://www.sednasociety.com/event-details/3rd-southern-edna-conference-2027), Canberra, Australia: In-person. Joint workshop with [Bioplatforms Australia](https://bioplatforms.com/) and [Galaxy Australia](https://usegalaxy.org.au/).
-- 2026-10-27 - [Global eDNA Confernece](https://www.mtsociety.org/global-edna-conference), Seattle, USA: In-person. Joint workshop with [BeBOP](https://bebop-obon.github.io/) and [GBIF](https://www.gbif.org/)
-- 2026-10-12 - [The 9th Annual Meeting of The eDNA Society](https://pub.confit.atlas.jp/en/event/edna9/content/outline), Sendai, Japan. In-person. Launguage - Japanese.
-- 2026-07 - [OBON FAIR eDNA Data wokrshop](https://obon-ocean.org/2026/07/09/obon-fair-edna-workshop/): Self-paced online tutorials with accompanying live online sessions. 
+- 2027-02-16 : [3rd Southern eDNA Conference](https://www.sednasociety.com/event-details/3rd-southern-edna-conference-2027), Canberra, Australia: In-person. Joint workshop with [Bioplatforms Australia](https://bioplatforms.com/) and [Galaxy Australia](https://usegalaxy.org.au/).
 
 ### Previous workshops ###
-- 2025-07-25 - London, UK. Hybrid. Joint workshop with [GBIF UK](https://www.gbif.org/country/GB/summary).
-- 2025-04-10 - Perth, Australia. In-person.
-- 2025-02-18 - [2nd Australian & New Zealand eDNA Conference](https://www.gbif.org/country/GB/summary), Wellington, New Zealand. In-person. 
+- 2026-10-27 : [Global eDNA Confernece](https://www.mtsociety.org/global-edna-conference), Seattle, USA: In-person. Joint workshop with [BeBOP](https://bebop-obon.github.io/) and [GBIF](https://www.gbif.org/)
+- 2026-10-12 : [The 9th Annual Meeting of The eDNA Society](https://pub.confit.atlas.jp/en/event/edna9/content/outline), Sendai, Japan. In-person. Launguage - Japanese.
+- 2026-07 : [OBON FAIR eDNA Data wokrshop](https://obon-ocean.org/2026/07/09/obon-fair-edna-workshop/): Self-paced online tutorials with accompanying live online sessions.
+- 2025-07-25 : London, UK. Hybrid. Joint workshop with [GBIF UK](https://www.gbif.org/country/GB/summary).
+- 2025-04-10 : Perth, Australia. In-person.
+- 2025-02-18 : [2nd Australian & New Zealand eDNA Conference](https://www.gbif.org/country/GB/summary), Wellington, New Zealand. In-person. 
 
 ## FAIRe Implementors ##
 We are excited to see more eDNA communities and laboratories adopting the FAIRe guidelines in their workflows and making thousands of eDNA records FAIR!  
