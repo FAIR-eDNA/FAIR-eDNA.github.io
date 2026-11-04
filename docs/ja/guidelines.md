@@ -199,6 +199,8 @@ FAIRe実装者によって開発されたスクリプトやツールが増えて
 *コミュニティでFAIRe関連ツールを開発している場合は、ぜひ [contact us](https://fair-edna.github.io/contact.html) からご連絡ください — 連携や協力の機会を探したいです！*
 
 - [**FAIReSheets**](https://github.com/aomlomics/fairesheets)（Google Sheets向けFAIReテンプレート生成器）: このPythonスクリプトはGoogle Sheets上にFAIRe eDNAデータテンプレートを作成します。FAIRe-atorのテンプレート作成を再現しますが、出力がMicrosoft ExcelファイルではなくGoogle Sheetsとなります。NOAA AOML 'OmicsのBayden Willms（[ORCID](https://orcid.org/0009-0003-2751-7317) / [GitHub](https://github.com/baydenwillms)）によって開発されました（https://github.com/aomlomics）。
+- [**FAIRe2NCBI**](https://github.com/aomlomics/FAIRe2NCBI) : FAIReフォーマットのメタデータをNCBI BioSampleとSRA向けのフォーマットに変換するツール。[NOAA AOML 'Omics](https://github.com/aomlomics)で開発されました。
+- [**edna2obis**](https://github.com/aomlomics/edna2obis) : FAIReフォーマットのメタデータをOBIS向けのフォーマットに変換するツール。[NOAA AOML 'Omics](https://github.com/aomlomics)で開発されました。
 - [**FAIRe2ENA**](https://github.com/Minderoo-OceanOmics-Centre-UWA/FAIRe2ENA): FAIReフォーマットのメタデータをENA（European Nucleotide Archive）XML形式に変換するツール。Philipp Bayer（[ORCID](https://orcid.org/0000-0001-8530-3067) / [GitHub](https://github.com/philippbayer)）によって Minderoo Foundation OceanOmics で開発されました。
 - [**Amplicon Nextflow**](https://github.com/MinderooFoundation/OceanOmics-amplicon-nf): 品質管理、デノイジング、ASV/ZOTU生成、分類学的割当を行うバイオインフォマティクスパイプラインで、FAIReメタデータを入力および出力オプションとして使用できます。Adam Bennett（[ORCID](https://orcid.org/0009-0000-7038-2890) / [GitHub](https://github.com/a4000)）、Philipp Bayer（[ORCID](https://orcid.org/0000-0001-8530-3067) / [GitHub](https://github.com/philippbayer)）、Sebastian Rauschert（[ORCID](https://orcid.org/0000-0001-8359-6898) / [GitHub](https://github.com/sebrauschert)）によって Minderoo Foundation OceanOmics で開発されました。
 
