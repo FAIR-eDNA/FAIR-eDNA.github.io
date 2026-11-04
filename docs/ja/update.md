@@ -36,15 +36,15 @@ FAIReワークフローの導入支援のため、世界各地のパートナー
 - [FAIRe NOAA データセット](https://github.com/aomlomics/ODE_testdata/tree/main/noaa-sefsc-gu1901)
 
 ### 今後のワークショップ ###
-- 2027-02 - [第3回 Southern eDNA Conference](https://www.sednasociety.com/event-details/3rd-southern-edna-conference-2027), Canberra, Australia: 対面。Bioplatforms Australia および Galaxy Australia との共同ワークショップ。  
-- 2026-10-27 - [Global eDNA Conference](https://www.mtsociety.org/global-edna-conference), Seattle, USA: 対面。BeBOP および GBIF との共同ワークショップ。  
-- 2026-10-12 - [第9回 eDNA学会年次総会](https://pub.confit.atlas.jp/en/event/edna9/content/outline), 仙台、日本: 対面。言語 — 日本語。  
-- 2026-07 - [OBON FAIR eDNA Data workshop](https://obon-ocean.org/2026/07/09/obon-fair-edna-workshop/): 自習型オンライン教材＋ライブオンラインセッション。
+- 2027-02-16 : [第3回 Southern eDNA Conference](https://www.sednasociety.com/event-details/3rd-southern-edna-conference-2027), Canberra, Australia: 対面。Bioplatforms Australia および Galaxy Australia との共同ワークショップ。  
 
 ### 過去のワークショップ ###
-- 2025-07-25 - ロンドン、英国。ハイブリッド。GBIF UK との共同ワークショップ。  
-- 2025-04-10 - パース、オーストラリア。対面。  
-- 2025-02-18 - [第2回 オーストラリア＆ニュージーランド eDNA カンファレンス](https://www.gbif.org/country/GB/summary), ウェリントン、ニュージーランド。対面。
+- 2026-10-27 : [Global eDNA Conference](https://www.mtsociety.org/global-edna-conference), Seattle, USA: 対面。BeBOP および GBIF との共同ワークショップ。  
+- 2026-10-12 : [第9回 eDNA学会年次総会](https://pub.confit.atlas.jp/en/event/edna9/content/outline), 仙台、日本: 対面。言語 — 日本語。 
+- 2026-07 : [OBON FAIR eDNA Data workshop](https://obon-ocean.org/2026/07/09/obon-fair-edna-workshop/): 自習型オンライン教材＋ライブオンラインセッション。
+- 2025-07-25 : ロンドン、英国。ハイブリッド。GBIF UK との共同ワークショップ。  
+- 2025-04-10 : パース、オーストラリア。対面。  
+- 2025-02-18 : [第2回 オーストラリア＆ニュージーランド eDNA カンファレンス](https://www.gbif.org/country/GB/summary), ウェリントン、ニュージーランド。対面。
 
 ## FAIRe 実装者（Implementors） ##
 多くの eDNA コミュニティやラボが FAIRe ガイドラインをワークフローに取り入れ、何千もの eDNA レコードを FAIR にしていることを嬉しく思います！
