@@ -11,9 +11,12 @@ Click [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checkl
 
 ## Codes and tools
 
-- **FAIRe-ator** (FAIR eDNA template generator): Download the README and R code [here](https://github.com/FAIR-eDNA/FAIRe-ator/blob/main).
-- **FAIReSheets** (FAIR eDNA template generator for Google Sheets): Download the README and Python code [here](https://github.com/aomlomics/fairesheets).
-- **FAIRe2MDT**: Download the R code [here](https://github.com/FAIR-eDNA/FAIRe2MDT/blob/main/FAIRe2MDT.R).
+- [**FAIRe-ator**](https://github.com/FAIR-eDNA/FAIRe-ator/blob/main) (FAIR eDNA template generator)
+- [**FAIReSheets**](https://github.com/aomlomics/fairesheets) (FAIR eDNA template generator for Google Sheets)
+- [**FAIRe2NCBI**](https://github.com/aomlomics/FAIRe2NCBI)
+- [**FAIRe2ENA**](https://github.com/Minderoo-OceanOmics-Centre-UWA/FAIRe2ENA)
+- [**edna2obis**](https://github.com/aomlomics/edna2obis)
+- [**FAIRe2MDT**](https://github.com/FAIR-eDNA/FAIRe2MDT/blob/main/FAIRe2MDT.R)
 - **FAIRe-fier** (FAIR eDNA metadata verifier): This tool is accessible via [web interface](https://shiny.csiro.au/FAIRe-fier/). Source code is on [GitHub](https://github.com/csiro/FAIRe-fier), and additional metadata and citation details can be found [here](http://hdl.handle.net/102.100.100/706519?index=1).
 
 ## Example datasets
