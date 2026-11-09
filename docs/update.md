@@ -50,21 +50,15 @@ These resources were originally developed for the [OBON FAIR eDNA Workshop](http
 ## FAIRe Implementors ##
 We are excited to see more eDNA communities and laboratories adopting the FAIRe guidelines in their workflows and making thousands of eDNA records FAIR!  
 
-**2025 Implementation completed**
+**Implementation completed**
 
-- NOAA (Atlantic Oceanographic Meteorological Laboratory ([AOML](https://www.aoml.noaa.gov/)) & Pacific Marine Environmental Laboratory ([PMEL](https://www.pmel.noaa.gov/))
+- NOAA Atlantic Oceanographic Meteorological Laboratory ([AOML](https://www.aoml.noaa.gov/)) & Pacific Marine Environmental Laboratory ([PMEL](https://www.pmel.noaa.gov/))
 -	[Minderoo Foundation OceanOmics](https://www.minderoo.org/resources/oceanomics/)
+-	Pacific eDNA Coastal Observatory ([PECO](https://peco-project.weebly.com/) - See the preprint [here](https://assets-eu.researchsquare.com/files/rs-10282151/v1_covered_ffb280f1-b4c9-406e-a7b7-ffe0aa6c1661.pdf?c=1783695589)
 
-<table style="border: none; border-collapse: collapse; width: auto; margin: 0 auto;">
-  <tr>
-    <td style="border: none; text-align: center; vertical-align: middle;">
-      <img src="assets/images/noaa_logo.png" height="80">
-    </td>
-    <td style="border: none; text-align: center; vertical-align: middle;">
-      <img src="assets/images/minderoo_logo.png" height="80">
-    </td>
-  </tr>
-</table>
+<div align="center">
+    <img src="/assets/images/logos_implementation_complete.png" alt="implementation completed" width="95%">
+</div>
 
 **Implementation in progress**
 
