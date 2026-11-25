@@ -1,6 +1,13 @@
 ## FAIRe metadata checklist
-The latest version of the FAIRe metadata checklist (v1.0.2 released on 2025-07-02) is available in Excel format [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2.xlsx)  
-You can access previous versions and change logs [here](https://github.com/FAIR-eDNA/FAIRe_checklist/tree/main).
+
+The latest version of the FAIRe metadata checklist (v1.0.2, released 2 July 2025) is available in:
+
+- **Excel format:** [FAIRe_checklist_v1.0.2.xlsx](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2.xlsx)
+- **YAML format:** [slots folder](https://github.com/FAIR-eDNA/FAIRe_checklist/tree/main/slots)
+
+The checklist is also published on Zenodo: <https://zenodo.org/records/23573670>
+
+Previous versions and change logs are available in the [FAIRe_checklist GitHub repository](https://github.com/FAIR-eDNA/FAIRe_checklist/tree/main).
 
 In response to requests from the Japanese eDNA community, we have developed a Japanese translation of the FAIRe Metadata Checklist. We gratefully acknowledge Mr. Masatoshi Nakamura (IDEA Consultants, Inc.) for leading the translation effort. Download the Japanese version [here](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx). 日本語版FAIReメタデータチェックリストのダウンロードは[こちら](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2_JP.xlsx)。
 
