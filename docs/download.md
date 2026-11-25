@@ -1,6 +1,6 @@
 ## FAIRe metadata checklist
 
-The latest version of the FAIRe metadata checklist (v1.0.2, released 2 July 2025) is available in:
+The latest version of the FAIRe metadata checklist (v1.0.2, released 2025-07-02) is available in:
 
 - **Excel format:** [FAIRe_checklist_v1.0.2.xlsx](https://github.com/FAIR-eDNA/FAIRe_checklist/blob/main/FAIRe_checklist_v1.0.2.xlsx)
 - **YAML format:** [slots folder](https://github.com/FAIR-eDNA/FAIRe_checklist/tree/main/slots)
